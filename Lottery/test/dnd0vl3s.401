@@ -1,0 +1,113 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Net;
+using System.IO;
+using System.Threading;
+
+namespace test
+{
+
+
+    public class DownLoadThread
+    {
+        private string URL;
+        private string fileName;
+
+        public DownLoadThread(string url, string file)
+        {
+            URL = url;
+            fileName = file;
+        }
+
+        public void runsOnWorkerThread(string URL, string fileName)
+        {
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(URL);
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                long totalBytes = response.ContentLength;
+
+                Stream st = response.GetResponseStream();
+                Stream so = new FileStream(fileName, FileMode.Create);
+
+                byte[] by = new byte[1024];
+                int osize = st.Read(by, 0, (int)by.Length);
+                while (osize > 0)
+                {
+                    so.Write(by, 0, osize);
+                    osize = st.Read(by, 0, (int)by.Length);
+                }
+                so.Close();
+                st.Close();
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+    }
+
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            //Thread thread = new Thread(new ThreadStart(runsOnWorkerThread));
+            //thread.Start("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+            DownLoadThread downLoadThread = new DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+            //Thread thread = new Thread(downLoadThread.runsOnWorkerThread);
+            Thread t = new Thread(() => runsOnWorkerThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
+            t.Start();
+        }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRegister form = new FrmRegister();
+            form.ShowDialog();
+
+        }
+
+     /*   private void downLoadFile()
+        {
+            if(this.InvokeRequired){
+                BeginInvoke(new EventHandler(runsOnWorkerThread), null);
+            }
+        }*/
+
+        private static void runsOnWorkerThread(string URL, string fileName)
+        {
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(URL);
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                long totalBytes = response.ContentLength;
+
+                Stream st = response.GetResponseStream();
+                StreamReader sr = new StreamReader(st);
+                Stream so = new FileStream(fileName,FileMode.Create);
+
+                StreamWriter sw = new StreamWriter(so);
+
+                string line = null;
+                while((line = sr.ReadLine()) != null){
+                    sw.WriteLine(line);
+                }
+
+                so.Close();
+                st.Close();
+                sr.Close();
+            }
+            catch(Exception){
+                throw;
+            }
+        }
+    }
+}
