@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model;
 
 namespace Lottery
 {
@@ -16,11 +21,51 @@ namespace Lottery
         private List<Button> _redButtonList = new List<Button>();
         private List<int> _redSelectedButtonNumber = new List<int>();
         private List<int> _blueSelectedButtonNumber = new List<int>();
-
+        private List<LotteryStageInfo> _lotteryStageInfosList = new List<LotteryStageInfo>(); 
         public Form1()
         {
             InitializeComponent();
             initRedButtonList();
+            Thread t = new Thread(() => DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
+            t.Start();
+        }
+
+        private void DownLoadThread(string url, string fileName){
+            try{
+                HttpWebRequest request = (HttpWebRequest) HttpWebRequest.Create(url);
+                HttpWebResponse response = (HttpWebResponse) request.GetResponse();
+                Stream stream = response.GetResponseStream();
+                StreamReader streamReader = new StreamReader(stream);
+                string line = null;
+                LotteryStageInfo lotteryInfo = new LotteryStageInfo();
+
+                while ((line = streamReader.ReadLine()) != null){
+                    string[] arr = line.Split();
+                    lotteryInfo = new LotteryStageInfo();
+                    lotteryInfo.Id = arr[0];
+                    lotteryInfo.Red1 = arr[2];
+                    lotteryInfo.Red2 = arr[3];
+                    lotteryInfo.Red3 = arr[4];
+                    lotteryInfo.Red4 = arr[5];
+                    lotteryInfo.Red5 = arr[6];
+                    lotteryInfo.Red6 = arr[7];
+                    lotteryInfo.Blue = arr[8];
+                    _lotteryStageInfosList.Add(lotteryInfo);
+                }
+
+                FileStream fileStream = new FileStream(fileName,FileMode.Create,FileAccess.Write);
+                BinaryFormatter binaryFormatter = new BinaryFormatter();
+                binaryFormatter.Serialize(fileStream,_lotteryStageInfosList);
+                
+                fileStream.Close();
+                streamReader.Close();
+                stream.Close();
+
+            }
+            catch (Exception){
+                
+                throw;
+            }
         }
 
         private void registerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -30,7 +75,14 @@ namespace Lottery
 
         private void btnLotteryNumber_Click(object sender, EventArgs e)
         {
-            FrmLotteryNumber formLotteryNumber = new FrmLotteryNumber();
+            List<LotteryStageInfo> lotteryList = new List<LotteryStageInfo>();
+            if (File.Exists("file.txt")){
+                FileStream readStream = new FileStream("file.txt", FileMode.Open, FileAccess.Read, FileShare.Read);
+                BinaryFormatter formatter = new BinaryFormatter();
+                lotteryList = (List<LotteryStageInfo>) formatter.Deserialize(readStream);
+                readStream.Close();
+            }
+            FrmLotteryNumber formLotteryNumber = new FrmLotteryNumber(lotteryList);
             formLotteryNumber.ShowDialog();
         }
 

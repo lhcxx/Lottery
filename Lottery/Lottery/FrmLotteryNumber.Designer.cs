@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvLotteryStageInfo = new System.Windows.Forms.DataGridView();
             this.phase = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.red = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.blue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLotteryStageInfo)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -42,7 +42,7 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58.46561F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.53439F));
-            this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.dgvLotteryStageInfo, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -51,21 +51,22 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(756, 599);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvLotteryStageInfo
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvLotteryStageInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLotteryStageInfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.phase,
             this.red,
             this.blue});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(436, 593);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvLotteryStageInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvLotteryStageInfo.Location = new System.Drawing.Point(3, 3);
+            this.dgvLotteryStageInfo.Name = "dgvLotteryStageInfo";
+            this.dgvLotteryStageInfo.Size = new System.Drawing.Size(436, 593);
+            this.dgvLotteryStageInfo.TabIndex = 0;
             // 
             // phase
             // 
+            this.phase.DataPropertyName = "ID";
             this.phase.HeaderText = "期号";
             this.phase.Name = "phase";
             this.phase.ReadOnly = true;
@@ -73,6 +74,7 @@
             // 
             // red
             // 
+            this.red.DataPropertyName = "Red";
             this.red.HeaderText = "红球常规号码";
             this.red.Name = "red";
             this.red.ReadOnly = true;
@@ -80,6 +82,7 @@
             // 
             // blue
             // 
+            this.blue.DataPropertyName = "Blue";
             this.blue.HeaderText = "蓝球号码";
             this.blue.Name = "blue";
             this.blue.ReadOnly = true;
@@ -94,7 +97,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "历史数据维护";
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLotteryStageInfo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -102,7 +105,7 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvLotteryStageInfo;
         private System.Windows.Forms.DataGridViewTextBoxColumn phase;
         private System.Windows.Forms.DataGridViewTextBoxColumn red;
         private System.Windows.Forms.DataGridViewTextBoxColumn blue;

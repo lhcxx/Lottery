@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -55,6 +57,7 @@ namespace test
         }
     }
 
+    [Serializable]
     public class A
     {
         private string a;
@@ -127,12 +130,22 @@ namespace test
         public Form1()
         {
             InitializeComponent();
-            //Thread thread = new Thread(new ThreadStart(runsOnWorkerThread));
-            //thread.Start("http://www.17500.cn/getData/ssq.TXT", "file.txt");
-            DownLoadThread downLoadThread = new DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt");
-            //Thread thread = new Thread(downLoadThread.runsOnWorkerThread);
-            Thread t = new Thread(() => runsOnWorkerThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
-            t.Start();
+
+            Ping p = new Ping();
+            PingReply pr = p.Send("www.baidu.com");
+            if (pr.Status != IPStatus.Success){
+                MessageBox.Show("网络连接异常");
+            }
+            else{
+                //Thread thread = new Thread(new ThreadStart(runsOnWorkerThread));
+                //thread.Start("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+                DownLoadThread downLoadThread = new DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+                //Thread thread = new Thread(downLoadThread.runsOnWorkerThread);
+                Thread t = new Thread(() => runsOnWorkerThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
+                t.Start();
+            }
+
+           
         }
 
         private void registerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -154,14 +167,14 @@ namespace test
                 
                 HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(URL);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-                long totalBytes = response.ContentLength;
 
                 Stream st = response.GetResponseStream();
                 StreamReader sr = new StreamReader(st);
-                Stream so = new FileStream(fileName,FileMode.Create);
+           //     Stream so = new FileStream(fileName,FileMode.Create);
 
-                StreamWriter sw = new StreamWriter(so);
-
+              //  StreamWriter sw = new StreamWriter(so);
+                
+                
                 string line = null;
                 A a = new A();
                 while((line = sr.ReadLine()) != null){
@@ -176,10 +189,18 @@ namespace test
                     a.G = arr[7];
                     a.H = arr[8];
                     _list.Add(a);
-                    sw.WriteLine(line);
+                 //   sw.WriteLine(line);
                 }
-                a = _list.Last();
-                so.Close();
+                FileStream fs = new FileStream(fileName,FileMode.Create,FileAccess.Write);
+                BinaryFormatter bf = new BinaryFormatter();
+                bf.Serialize(fs,_list);
+                fs.Close();
+                FileStream readStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
+                List<A> tmp = (List<A>) bf.Deserialize(readStream);
+                a = tmp.Last();
+                readStream.Close();
+                
+          //      so.Close();
                 st.Close();
                 sr.Close();
             }
