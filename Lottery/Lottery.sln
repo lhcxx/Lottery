@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery", "Lottery\Lottery.csproj", "{FCAAA310-A0A3-4A0C-8150-838AE4B7F557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{EE0508D2-809D-4725-8DFC-019AEC490197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAAA310-A0A3-4A0C-8150-838AE4B7F557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAAA310-A0A3-4A0C-8150-838AE4B7F557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAAA310-A0A3-4A0C-8150-838AE4B7F557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAAA310-A0A3-4A0C-8150-838AE4B7F557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0508D2-809D-4725-8DFC-019AEC490197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0508D2-809D-4725-8DFC-019AEC490197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0508D2-809D-4725-8DFC-019AEC490197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0508D2-809D-4725-8DFC-019AEC490197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
