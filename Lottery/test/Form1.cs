@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -131,21 +132,28 @@ namespace test
         {
             InitializeComponent();
 
-            Ping p = new Ping();
-            PingReply pr = p.Send("www.baidu.com");
-            if (pr.Status != IPStatus.Success){
-                MessageBox.Show("网络连接异常");
+//            Ping p = new Ping();
+//            PingReply pr = p.Send("www.baidu.com");
+//            if (pr.Status != IPStatus.Success){
+//                MessageBox.Show("网络连接异常");
+//            }
+//            else{
+//                //Thread thread = new Thread(new ThreadStart(runsOnWorkerThread));
+//                //thread.Start("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+//                DownLoadThread downLoadThread = new DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt");
+//                //Thread thread = new Thread(downLoadThread.runsOnWorkerThread);
+//                Thread t = new Thread(() => runsOnWorkerThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
+//                t.Start();
+//            }
+            
+            SqlConnection conn = new SqlConnection("Data Source=192.168.0.121,User ID=test,Password=8274591lhcxx!,Initial Catalog=test");
+            if (conn.State == ConnectionState.Open){
+                MessageBox.Show("Successful");
             }
             else{
-                //Thread thread = new Thread(new ThreadStart(runsOnWorkerThread));
-                //thread.Start("http://www.17500.cn/getData/ssq.TXT", "file.txt");
-                DownLoadThread downLoadThread = new DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt");
-                //Thread thread = new Thread(downLoadThread.runsOnWorkerThread);
-                Thread t = new Thread(() => runsOnWorkerThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
-                t.Start();
+                MessageBox.Show("Failed!");
             }
-
-           
+            conn.Close();
         }
 
         private void registerToolStripMenuItem_Click(object sender, EventArgs e)
