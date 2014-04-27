@@ -32,6 +32,8 @@
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBet = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.btnBlue10 = new System.Windows.Forms.Button();
             this.btnBlue11 = new System.Windows.Forms.Button();
             this.btnBlue12 = new System.Windows.Forms.Button();
@@ -51,10 +53,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.lblBlueNumber = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.cbWhirlMatrix = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cbxWhirlMatrix = new System.Windows.Forms.CheckBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cbxIsBraveCode = new System.Windows.Forms.CheckBox();
             this.tbxBraveCode = new System.Windows.Forms.TextBox();
@@ -99,8 +97,8 @@
             this.lblRedTotalNumber = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbBetStage = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnLotteryNumber = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
@@ -117,11 +115,7 @@
             this.用户指南ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.web页上的帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rbAllArray = new System.Windows.Forms.RadioButton();
-            this.rbRoundVote = new System.Windows.Forms.RadioButton();
-            this.label10 = new System.Windows.Forms.Label();
-            this.btnBet = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblCurrentBetStage = new System.Windows.Forms.Label();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -167,10 +161,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblCurrentBetStage);
             this.groupBox1.Controls.Add(this.btnBet);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.rbRoundVote);
-            this.groupBox1.Controls.Add(this.rbAllArray);
             this.groupBox1.Controls.Add(this.btnBlue10);
             this.groupBox1.Controls.Add(this.btnBlue11);
             this.groupBox1.Controls.Add(this.btnBlue12);
@@ -190,10 +183,6 @@
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.lblBlueNumber);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.cbWhirlMatrix);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.cbxWhirlMatrix);
-            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.cbxIsBraveCode);
             this.groupBox1.Controls.Add(this.tbxBraveCode);
@@ -238,7 +227,6 @@
             this.groupBox1.Controls.Add(this.lblRedTotalNumber);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.cbBetStage);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
@@ -248,10 +236,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "投注设置";
             // 
+            // btnBet
+            // 
+            this.btnBet.Location = new System.Drawing.Point(80, 729);
+            this.btnBet.Name = "btnBet";
+            this.btnBet.Size = new System.Drawing.Size(78, 30);
+            this.btnBet.TabIndex = 89;
+            this.btnBet.Text = "投注 >>";
+            this.btnBet.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(0, 697);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(283, 13);
+            this.label10.TabIndex = 88;
+            this.label10.Text = "______________________________________________";
+            // 
             // btnBlue10
             // 
             this.btnBlue10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue10.Location = new System.Drawing.Point(44, 559);
+            this.btnBlue10.Location = new System.Drawing.Point(44, 488);
             this.btnBlue10.Name = "btnBlue10";
             this.btnBlue10.Size = new System.Drawing.Size(32, 27);
             this.btnBlue10.TabIndex = 85;
@@ -262,7 +268,7 @@
             // btnBlue11
             // 
             this.btnBlue11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue11.Location = new System.Drawing.Point(77, 559);
+            this.btnBlue11.Location = new System.Drawing.Point(77, 488);
             this.btnBlue11.Name = "btnBlue11";
             this.btnBlue11.Size = new System.Drawing.Size(32, 27);
             this.btnBlue11.TabIndex = 84;
@@ -273,7 +279,7 @@
             // btnBlue12
             // 
             this.btnBlue12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue12.Location = new System.Drawing.Point(110, 559);
+            this.btnBlue12.Location = new System.Drawing.Point(110, 488);
             this.btnBlue12.Name = "btnBlue12";
             this.btnBlue12.Size = new System.Drawing.Size(32, 27);
             this.btnBlue12.TabIndex = 83;
@@ -284,7 +290,7 @@
             // btnBlue13
             // 
             this.btnBlue13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue13.Location = new System.Drawing.Point(143, 559);
+            this.btnBlue13.Location = new System.Drawing.Point(143, 488);
             this.btnBlue13.Name = "btnBlue13";
             this.btnBlue13.Size = new System.Drawing.Size(32, 27);
             this.btnBlue13.TabIndex = 82;
@@ -295,7 +301,7 @@
             // btnBlue14
             // 
             this.btnBlue14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue14.Location = new System.Drawing.Point(176, 559);
+            this.btnBlue14.Location = new System.Drawing.Point(176, 488);
             this.btnBlue14.Name = "btnBlue14";
             this.btnBlue14.Size = new System.Drawing.Size(32, 27);
             this.btnBlue14.TabIndex = 81;
@@ -306,7 +312,7 @@
             // btnBlue15
             // 
             this.btnBlue15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue15.Location = new System.Drawing.Point(209, 559);
+            this.btnBlue15.Location = new System.Drawing.Point(209, 488);
             this.btnBlue15.Name = "btnBlue15";
             this.btnBlue15.Size = new System.Drawing.Size(32, 27);
             this.btnBlue15.TabIndex = 80;
@@ -317,7 +323,7 @@
             // btnBlue16
             // 
             this.btnBlue16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue16.Location = new System.Drawing.Point(242, 559);
+            this.btnBlue16.Location = new System.Drawing.Point(242, 488);
             this.btnBlue16.Name = "btnBlue16";
             this.btnBlue16.Size = new System.Drawing.Size(32, 27);
             this.btnBlue16.TabIndex = 79;
@@ -328,7 +334,7 @@
             // btnBlue9
             // 
             this.btnBlue9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue9.Location = new System.Drawing.Point(11, 559);
+            this.btnBlue9.Location = new System.Drawing.Point(11, 488);
             this.btnBlue9.Name = "btnBlue9";
             this.btnBlue9.Size = new System.Drawing.Size(32, 27);
             this.btnBlue9.TabIndex = 78;
@@ -339,7 +345,7 @@
             // btnBlue2
             // 
             this.btnBlue2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue2.Location = new System.Drawing.Point(44, 531);
+            this.btnBlue2.Location = new System.Drawing.Point(44, 460);
             this.btnBlue2.Name = "btnBlue2";
             this.btnBlue2.Size = new System.Drawing.Size(32, 27);
             this.btnBlue2.TabIndex = 77;
@@ -350,7 +356,7 @@
             // btnBlue3
             // 
             this.btnBlue3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue3.Location = new System.Drawing.Point(77, 531);
+            this.btnBlue3.Location = new System.Drawing.Point(77, 460);
             this.btnBlue3.Name = "btnBlue3";
             this.btnBlue3.Size = new System.Drawing.Size(32, 27);
             this.btnBlue3.TabIndex = 76;
@@ -361,7 +367,7 @@
             // btnBlue4
             // 
             this.btnBlue4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue4.Location = new System.Drawing.Point(110, 531);
+            this.btnBlue4.Location = new System.Drawing.Point(110, 460);
             this.btnBlue4.Name = "btnBlue4";
             this.btnBlue4.Size = new System.Drawing.Size(32, 27);
             this.btnBlue4.TabIndex = 75;
@@ -372,7 +378,7 @@
             // btnBlue5
             // 
             this.btnBlue5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue5.Location = new System.Drawing.Point(143, 531);
+            this.btnBlue5.Location = new System.Drawing.Point(143, 460);
             this.btnBlue5.Name = "btnBlue5";
             this.btnBlue5.Size = new System.Drawing.Size(32, 27);
             this.btnBlue5.TabIndex = 74;
@@ -383,7 +389,7 @@
             // btnBlue6
             // 
             this.btnBlue6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue6.Location = new System.Drawing.Point(176, 531);
+            this.btnBlue6.Location = new System.Drawing.Point(176, 460);
             this.btnBlue6.Name = "btnBlue6";
             this.btnBlue6.Size = new System.Drawing.Size(32, 27);
             this.btnBlue6.TabIndex = 73;
@@ -394,7 +400,7 @@
             // btnBlue7
             // 
             this.btnBlue7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue7.Location = new System.Drawing.Point(209, 531);
+            this.btnBlue7.Location = new System.Drawing.Point(209, 460);
             this.btnBlue7.Name = "btnBlue7";
             this.btnBlue7.Size = new System.Drawing.Size(32, 27);
             this.btnBlue7.TabIndex = 72;
@@ -405,7 +411,7 @@
             // btnBlue8
             // 
             this.btnBlue8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue8.Location = new System.Drawing.Point(242, 531);
+            this.btnBlue8.Location = new System.Drawing.Point(242, 460);
             this.btnBlue8.Name = "btnBlue8";
             this.btnBlue8.Size = new System.Drawing.Size(32, 27);
             this.btnBlue8.TabIndex = 71;
@@ -416,7 +422,7 @@
             // btnBlue1
             // 
             this.btnBlue1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlue1.Location = new System.Drawing.Point(11, 531);
+            this.btnBlue1.Location = new System.Drawing.Point(11, 460);
             this.btnBlue1.Name = "btnBlue1";
             this.btnBlue1.Size = new System.Drawing.Size(32, 27);
             this.btnBlue1.TabIndex = 70;
@@ -427,7 +433,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(95, 510);
+            this.label11.Location = new System.Drawing.Point(95, 439);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 13);
             this.label11.TabIndex = 69;
@@ -436,7 +442,7 @@
             // lblBlueNumber
             // 
             this.lblBlueNumber.AutoSize = true;
-            this.lblBlueNumber.Location = new System.Drawing.Point(74, 510);
+            this.lblBlueNumber.Location = new System.Drawing.Point(74, 439);
             this.lblBlueNumber.Name = "lblBlueNumber";
             this.lblBlueNumber.Size = new System.Drawing.Size(13, 13);
             this.lblBlueNumber.TabIndex = 68;
@@ -445,48 +451,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 510);
+            this.label9.Location = new System.Drawing.Point(10, 439);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(67, 13);
             this.label9.TabIndex = 67;
             this.label9.Text = "蓝球选择：";
-            // 
-            // cbWhirlMatrix
-            // 
-            this.cbWhirlMatrix.Enabled = false;
-            this.cbWhirlMatrix.FormattingEnabled = true;
-            this.cbWhirlMatrix.Location = new System.Drawing.Point(35, 457);
-            this.cbWhirlMatrix.Name = "cbWhirlMatrix";
-            this.cbWhirlMatrix.Size = new System.Drawing.Size(239, 21);
-            this.cbWhirlMatrix.TabIndex = 66;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1, 478);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(283, 13);
-            this.label8.TabIndex = 65;
-            this.label8.Text = "______________________________________________";
-            // 
-            // cbxWhirlMatrix
-            // 
-            this.cbxWhirlMatrix.AutoSize = true;
-            this.cbxWhirlMatrix.Location = new System.Drawing.Point(13, 460);
-            this.cbxWhirlMatrix.Name = "cbxWhirlMatrix";
-            this.cbxWhirlMatrix.Size = new System.Drawing.Size(15, 14);
-            this.cbxWhirlMatrix.TabIndex = 63;
-            this.cbxWhirlMatrix.UseVisualStyleBackColor = true;
-            this.cbxWhirlMatrix.CheckedChanged += new System.EventHandler(this.cbxWhirlMatrix_CheckedChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 434);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 13);
-            this.label7.TabIndex = 62;
-            this.label7.Text = "旋转矩阵：";
             // 
             // label6
             // 
@@ -953,14 +922,6 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "______________________________________________";
             // 
-            // cbBetStage
-            // 
-            this.cbBetStage.FormattingEnabled = true;
-            this.cbBetStage.Location = new System.Drawing.Point(83, 40);
-            this.cbBetStage.Name = "cbBetStage";
-            this.cbBetStage.Size = new System.Drawing.Size(191, 21);
-            this.cbBetStage.TabIndex = 9;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -969,6 +930,16 @@
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "投注期号：";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(293, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(357, 765);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "过滤设置";
             // 
             // toolStrip1
             // 
@@ -1121,55 +1092,14 @@
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.关于ToolStripMenuItem.Text = "关于";
             // 
-            // rbAllArray
+            // lblCurrentBetStage
             // 
-            this.rbAllArray.AutoSize = true;
-            this.rbAllArray.Location = new System.Drawing.Point(52, 688);
-            this.rbAllArray.Name = "rbAllArray";
-            this.rbAllArray.Size = new System.Drawing.Size(49, 17);
-            this.rbAllArray.TabIndex = 86;
-            this.rbAllArray.Text = "全排";
-            this.rbAllArray.UseVisualStyleBackColor = true;
-            // 
-            // rbRoundVote
-            // 
-            this.rbRoundVote.AutoSize = true;
-            this.rbRoundVote.Checked = true;
-            this.rbRoundVote.Location = new System.Drawing.Point(135, 688);
-            this.rbRoundVote.Name = "rbRoundVote";
-            this.rbRoundVote.Size = new System.Drawing.Size(49, 17);
-            this.rbRoundVote.TabIndex = 87;
-            this.rbRoundVote.TabStop = true;
-            this.rbRoundVote.Text = "轮投";
-            this.rbRoundVote.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(0, 708);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(283, 13);
-            this.label10.TabIndex = 88;
-            this.label10.Text = "______________________________________________";
-            // 
-            // btnBet
-            // 
-            this.btnBet.Location = new System.Drawing.Point(80, 729);
-            this.btnBet.Name = "btnBet";
-            this.btnBet.Size = new System.Drawing.Size(78, 30);
-            this.btnBet.TabIndex = 89;
-            this.btnBet.Text = "投注 >>";
-            this.btnBet.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(293, 3);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(357, 765);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "过滤设置";
+            this.lblCurrentBetStage.AutoSize = true;
+            this.lblCurrentBetStage.Location = new System.Drawing.Point(94, 44);
+            this.lblCurrentBetStage.Name = "lblCurrentBetStage";
+            this.lblCurrentBetStage.Size = new System.Drawing.Size(43, 13);
+            this.lblCurrentBetStage.TabIndex = 90;
+            this.lblCurrentBetStage.Text = "个号码";
             // 
             // Form1
             // 
@@ -1219,7 +1149,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox cbBetStage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblRedTotalNumber;
@@ -1264,11 +1193,7 @@
         private System.Windows.Forms.TextBox tbxBraveCode;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox cbxIsBraveCode;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox cbxWhirlMatrix;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbWhirlMatrix;
         private System.Windows.Forms.Button btnBlue10;
         private System.Windows.Forms.Button btnBlue11;
         private System.Windows.Forms.Button btnBlue12;
@@ -1290,9 +1215,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnBet;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.RadioButton rbRoundVote;
-        private System.Windows.Forms.RadioButton rbAllArray;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblCurrentBetStage;
 
     }
 }

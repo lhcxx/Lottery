@@ -14,6 +14,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 
+
 namespace test
 {
 
@@ -133,7 +134,7 @@ namespace test
             InitializeComponent();
 
 //            Ping p = new Ping();
-//            PingReply pr = p.Send("www.baidu.com");
+//            PingReply pr = p.Send("192.168.0.121");
 //            if (pr.Status != IPStatus.Success){
 //                MessageBox.Show("网络连接异常");
 //            }
@@ -146,7 +147,8 @@ namespace test
 //                t.Start();
 //            }
             
-            SqlConnection conn = new SqlConnection("Data Source=192.168.0.121,User ID=test,Password=8274591lhcxx!,Initial Catalog=test");
+            SqlConnection conn = new SqlConnection("Data Source=192.168.0.121,User ID=sa,Password=8274591lhcxx!,Initial Catalog=test");
+            conn.Open();
             if (conn.State == ConnectionState.Open){
                 MessageBox.Show("Successful");
             }
@@ -154,6 +156,11 @@ namespace test
                 MessageBox.Show("Failed!");
             }
             conn.Close();
+
+
+            //string conn = "Database='test';Data Source='192.168.0.121';User Id='root';Password='82740591';charset='utf8';pooling=true";
+            
+
         }
 
         private void registerToolStripMenuItem_Click(object sender, EventArgs e)

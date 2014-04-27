@@ -68,11 +68,6 @@ namespace Lottery
             }
         }
 
-        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btnLotteryNumber_Click(object sender, EventArgs e)
         {
             List<LotteryStageInfo> lotteryList = new List<LotteryStageInfo>();
@@ -211,16 +206,9 @@ namespace Lottery
                
         }
 
-        private void cbxWhirlMatrix_CheckedChanged(object sender, EventArgs e)
-        {
-            if (cbxWhirlMatrix.Checked == true)
-                cbWhirlMatrix.Enabled = true;
-            else
-            {
-                cbWhirlMatrix.Enabled = false;
-            }
-               
-        }
+
+
+  
 
 
 
