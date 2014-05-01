@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,7 +18,7 @@ namespace Lottery
         {
             InitializeComponent();
 
-            CheckNetWorkConnect();
+       //     CheckNetWorkConnect();
 
         }
 
@@ -33,9 +34,70 @@ namespace Lottery
             {
                 
                 Form1 mainForm = new Form1();
-                mainForm.ShowDialog();
+               
             }
             
         }
+
+        public void ShowMessage(string msg, bool canCancel)
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(() =>
+                {
+                    _lbMessage.Text = msg;
+                    _btnCancel.Visible = canCancel;
+                }
+                    ));
+            }
+            else
+            {
+                _lbMessage.Text = msg;
+                _btnCancel.Visible = canCancel;
+            }
+        }
+
+        public void CloseForm()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(Close));
+            }
+            else
+            {
+                Close();
+            }
+        }
+
+        public void ShowError(Exception exception)
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action<Exception>(DisplayError), exception);
+            }
+            else
+            {
+                DisplayError(exception);
+            }
+        }
+
+        private void DisplayError(Exception e)
+        {
+            _lbMessage.Text = "Action runs in error! " + e.Message;
+            _lbMessage.ForeColor = Color.Red;
+            _btnOK.Visible = true;
+            _btnCancel.Visible = false;
+        }
+
+        private void _btnCancel_Click(object sender, EventArgs e)
+        {
+            if (CancelClick != null)
+            {
+                CancelClick();
+            }
+        }
+
+        public event Action CancelClick;
+
     }
 }

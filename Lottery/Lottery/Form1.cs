@@ -26,8 +26,8 @@ namespace Lottery
         {
             InitializeComponent();
             initRedButtonList();
-            Thread t = new Thread(() => DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
-            t.Start();
+           // Thread t = new Thread(() => DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
+          //  t.Start();
         }
 
         private void DownLoadThread(string url, string fileName){
