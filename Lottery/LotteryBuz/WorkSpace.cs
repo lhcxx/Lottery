@@ -10,12 +10,17 @@ using Model;
 namespace LotteryBuz
 {
     public class WorkSpace{
-        private List<LotteryStageInfo> _lotteryList = new List<LotteryStageInfo>();
+        private  List<LotteryStageInfo> _lotteryList = new List<LotteryStageInfo>();
 
         public WorkSpace(){}
 
         public WorkSpace(string fileName){
             GetLotteryList(fileName);
+        }
+
+        public  List<LotteryStageInfo> LotteryList{
+            get { return _lotteryList; }
+            set { _lotteryList = value; }
         }
 
         public void GetLotteryList(string fileName){

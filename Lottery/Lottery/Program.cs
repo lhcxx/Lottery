@@ -11,7 +11,7 @@ using LotteryBuz;
 namespace Lottery
 {
     static class Program{
-        private static WorkSpace workspace;
+        public static WorkSpace workspace;
         public static Icon AppIcon;
 
         /// <summary>
@@ -22,18 +22,11 @@ namespace Lottery
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           
+            workspace = new WorkSpace();
             try
             {
                 AppInitAction action = new AppInitAction();
                 action.RunInProgress();
-//                LoginForm loginForm = new LoginForm();
-//                if (loginForm.ShowDialog() == DialogResult.OK)
-//                {
-//                    MainForm form = new MainForm();
-//                    MainForm = form;
-//                    Application.Run(form);
-//                }
                 Form1 form1 = new Form1();
                 form1.ShowDialog();
             }

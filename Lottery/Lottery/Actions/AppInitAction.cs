@@ -26,7 +26,7 @@ namespace Lottery.Actions
             DownLoadFile("http://www.17500.cn/getData/ssq.TXT", "file.txt");
         }
 
-        private void DownLoadFile(string url, string fileName)
+        private  void DownLoadFile(string url, string fileName)
         {
             try
             {
@@ -55,6 +55,7 @@ namespace Lottery.Actions
                 FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.Write);
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
                 binaryFormatter.Serialize(fileStream, lotteryStageInfosList);
+                Program.workspace.LotteryList = lotteryStageInfosList; 
 
                 fileStream.Close();
                 streamReader.Close();

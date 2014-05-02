@@ -32,6 +32,7 @@
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblCurrentBetStage = new System.Windows.Forms.Label();
             this.btnBet = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.btnBlue10 = new System.Windows.Forms.Button();
@@ -115,7 +116,6 @@
             this.用户指南ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.web页上的帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblCurrentBetStage = new System.Windows.Forms.Label();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -235,6 +235,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "投注设置";
+            // 
+            // lblCurrentBetStage
+            // 
+            this.lblCurrentBetStage.AutoSize = true;
+            this.lblCurrentBetStage.Location = new System.Drawing.Point(85, 44);
+            this.lblCurrentBetStage.Name = "lblCurrentBetStage";
+            this.lblCurrentBetStage.Size = new System.Drawing.Size(55, 13);
+            this.lblCurrentBetStage.TabIndex = 90;
+            this.lblCurrentBetStage.Text = "20140108";
             // 
             // btnBet
             // 
@@ -1091,15 +1100,6 @@
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.关于ToolStripMenuItem.Text = "关于";
-            // 
-            // lblCurrentBetStage
-            // 
-            this.lblCurrentBetStage.AutoSize = true;
-            this.lblCurrentBetStage.Location = new System.Drawing.Point(94, 44);
-            this.lblCurrentBetStage.Name = "lblCurrentBetStage";
-            this.lblCurrentBetStage.Size = new System.Drawing.Size(43, 13);
-            this.lblCurrentBetStage.TabIndex = 90;
-            this.lblCurrentBetStage.Text = "个号码";
             // 
             // Form1
             // 

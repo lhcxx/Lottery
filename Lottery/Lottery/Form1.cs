@@ -28,6 +28,13 @@ namespace Lottery
             initRedButtonList();
            // Thread t = new Thread(() => DownLoadThread("http://www.17500.cn/getData/ssq.TXT", "file.txt"));
           //  t.Start();
+            initCurrentBetStage();
+        }
+
+        private void initCurrentBetStage(){       
+            if (Program.workspace.LotteryList.Last() != null){
+                lblCurrentBetStage.Text = Program.workspace.LotteryList.Last().Id;
+            }
         }
 
         private void DownLoadThread(string url, string fileName){
