@@ -33,7 +33,7 @@ namespace Lottery
 
         private void initCurrentBetStage(){       
             if (Program.workspace.LotteryList.Last() != null){
-                lblCurrentBetStage.Text = Program.workspace.LotteryList.Last().Id;
+                lblCurrentBetStage.Text = (Int32.Parse(Program.workspace.LotteryList.Last().Id)+1).ToString();
             }
         }
 
@@ -212,6 +212,7 @@ namespace Lottery
             }
                
         }
+
 
 
 
