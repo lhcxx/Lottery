@@ -103,12 +103,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.comboBox62 = new System.Windows.Forms.ComboBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.comboBox61 = new System.Windows.Forms.ComboBox();
             this.checkBox61 = new System.Windows.Forms.CheckBox();
+            this.checkBox62 = new System.Windows.Forms.CheckBox();
             this.checkBox60 = new System.Windows.Forms.CheckBox();
             this.comboBox60 = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
@@ -220,7 +218,6 @@
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
@@ -291,7 +288,7 @@
             this.用户指南ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.web页上的帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -1180,6 +1177,15 @@
             this.panel1.Size = new System.Drawing.Size(337, 714);
             this.panel1.TabIndex = 1;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 30);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "选中";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
@@ -1189,11 +1195,8 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
-            this.tableLayoutPanel2.Controls.Add(this.checkBox62, 4, 30);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox62, 3, 30);
-            this.tableLayoutPanel2.Controls.Add(this.label40, 2, 30);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox61, 1, 30);
             this.tableLayoutPanel2.Controls.Add(this.checkBox61, 0, 30);
+            this.tableLayoutPanel2.Controls.Add(this.checkBox62, 4, 30);
             this.tableLayoutPanel2.Controls.Add(this.checkBox60, 4, 29);
             this.tableLayoutPanel2.Controls.Add(this.comboBox60, 3, 29);
             this.tableLayoutPanel2.Controls.Add(this.label39, 2, 29);
@@ -1305,7 +1308,6 @@
             this.tableLayoutPanel2.Controls.Add(this.checkBox17, 0, 8);
             this.tableLayoutPanel2.Controls.Add(this.checkBox16, 4, 7);
             this.tableLayoutPanel2.Controls.Add(this.comboBox16, 3, 7);
-            this.tableLayoutPanel2.Controls.Add(this.label17, 2, 7);
             this.tableLayoutPanel2.Controls.Add(this.comboBox15, 1, 7);
             this.tableLayoutPanel2.Controls.Add(this.checkBox15, 0, 7);
             this.tableLayoutPanel2.Controls.Add(this.checkBox14, 4, 6);
@@ -1344,6 +1346,7 @@
             this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.checkBox5, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.comboBox26, 3, 12);
+            this.tableLayoutPanel2.Controls.Add(this.label17, 2, 7);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 42);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 31;
@@ -1378,8 +1381,20 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.225806F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.225806F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.225806F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(313, 787);
             this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // checkBox61
+            // 
+            this.checkBox61.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox61.AutoSize = true;
+            this.checkBox61.Location = new System.Drawing.Point(3, 760);
+            this.checkBox61.Name = "checkBox61";
+            this.checkBox61.Size = new System.Drawing.Size(19, 17);
+            this.checkBox61.TabIndex = 162;
+            this.checkBox61.Text = "checkBox61";
+            this.checkBox61.UseVisualStyleBackColor = true;
             // 
             // checkBox62
             // 
@@ -1391,45 +1406,6 @@
             this.checkBox62.TabIndex = 161;
             this.checkBox62.Text = "checkBox62";
             this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // comboBox62
-            // 
-            this.comboBox62.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox62.FormattingEnabled = true;
-            this.comboBox62.Location = new System.Drawing.Point(215, 753);
-            this.comboBox62.Name = "comboBox62";
-            this.comboBox62.Size = new System.Drawing.Size(69, 21);
-            this.comboBox62.TabIndex = 160;
-            // 
-            // label40
-            // 
-            this.label40.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(107, 762);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(97, 13);
-            this.label40.TabIndex = 159;
-            this.label40.Text = "《        和值      《";
-            // 
-            // comboBox61
-            // 
-            this.comboBox61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBox61.FormattingEnabled = true;
-            this.comboBox61.Location = new System.Drawing.Point(28, 758);
-            this.comboBox61.Name = "comboBox61";
-            this.comboBox61.Size = new System.Drawing.Size(69, 21);
-            this.comboBox61.TabIndex = 158;
-            // 
-            // checkBox61
-            // 
-            this.checkBox61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox61.AutoSize = true;
-            this.checkBox61.Location = new System.Drawing.Point(3, 760);
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(19, 17);
-            this.checkBox61.TabIndex = 157;
-            this.checkBox61.Text = "checkBox61";
-            this.checkBox61.UseVisualStyleBackColor = true;
             // 
             // checkBox60
             // 
@@ -2500,7 +2476,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(97, 13);
             this.label18.TabIndex = 49;
-            this.label18.Text = "《        和值      《";
+            this.label18.Text = "《    奇数个数  《";
             // 
             // comboBox17
             // 
@@ -2541,16 +2517,6 @@
             this.comboBox16.Name = "comboBox16";
             this.comboBox16.Size = new System.Drawing.Size(69, 21);
             this.comboBox16.TabIndex = 45;
-            // 
-            // label17
-            // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(107, 181);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(97, 13);
-            this.label17.TabIndex = 44;
-            this.label17.Text = "《        和值      《";
             // 
             // comboBox15
             // 
@@ -2600,7 +2566,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(97, 13);
             this.label16.TabIndex = 39;
-            this.label16.Text = "《        和值      《";
+            this.label16.Text = "《      尾数和    《";
             // 
             // comboBox13
             // 
@@ -2650,7 +2616,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(97, 13);
             this.label15.TabIndex = 34;
-            this.label15.Text = "《        和值      《";
+            this.label15.Text = "《      极号差    《";
             // 
             // comboBox11
             // 
@@ -2700,7 +2666,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(97, 13);
             this.label14.TabIndex = 29;
-            this.label14.Text = "《        和值      《";
+            this.label14.Text = "《      极号和    《";
             // 
             // comboBox9
             // 
@@ -3242,14 +3208,15 @@
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.关于ToolStripMenuItem.Text = "关于";
             // 
-            // button1
+            // label17
             // 
-            this.button1.Location = new System.Drawing.Point(3, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 30);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "选中";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(107, 181);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(97, 13);
+            this.label17.TabIndex = 163;
+            this.label17.Text = "《    尾数组数  《";
             // 
             // Form1
             // 
@@ -3428,7 +3395,6 @@
         private System.Windows.Forms.CheckBox checkBox17;
         private System.Windows.Forms.CheckBox checkBox16;
         private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.ComboBox comboBox15;
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.CheckBox checkBox14;
@@ -3457,10 +3423,6 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox62;
-        private System.Windows.Forms.ComboBox comboBox62;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.ComboBox comboBox61;
-        private System.Windows.Forms.CheckBox checkBox61;
         private System.Windows.Forms.CheckBox checkBox60;
         private System.Windows.Forms.ComboBox comboBox60;
         private System.Windows.Forms.Label label39;
@@ -3549,6 +3511,8 @@
         private System.Windows.Forms.CheckBox checkBox26;
         private System.Windows.Forms.ComboBox comboBox26;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox checkBox61;
+        private System.Windows.Forms.Label label17;
 
     }
 }
