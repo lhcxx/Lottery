@@ -62,6 +62,18 @@
     <Compile Include="FrmLotteryNumber.Designer.cs">
       <DependentUpon>FrmLotteryNumber.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMother.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMother.Designer.cs">
+      <DependentUpon>FrmMother.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +87,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLotteryNumber.resx">
       <DependentUpon>FrmLotteryNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMother.resx">
+      <DependentUpon>FrmMother.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStart.resx">
       <DependentUpon>FrmStart.cs</DependentUpon>

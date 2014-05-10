@@ -1,6 +1,6 @@
 ﻿namespace Lottery
 {
-    partial class Form1
+    partial class FrmMother
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblCurrentBetStage = new System.Windows.Forms.Label();
@@ -255,8 +254,6 @@
             this.tabPage15 = new System.Windows.Forms.TabPage();
             this.tabPage16 = new System.Windows.Forms.TabPage();
             this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.toolStripContainer1.ContentPanel.SuspendLayout();
-            this.toolStripContainer1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -265,20 +262,6 @@
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStripContainer1
-            // 
-            // 
-            // toolStripContainer1.ContentPanel
-            // 
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.tableLayoutPanel1);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1364, 858);
-            this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
-            this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(1364, 858);
-            this.toolStripContainer1.TabIndex = 1;
-            this.toolStripContainer1.Text = "toolStripContainer1";
             // 
             // tableLayoutPanel1
             // 
@@ -293,8 +276,8 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1364, 858);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1297, 799);
+            this.tableLayoutPanel1.TabIndex = 1;
             // 
             // groupBox1
             // 
@@ -368,7 +351,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(284, 852);
+            this.groupBox1.Size = new System.Drawing.Size(284, 793);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "投注设置";
@@ -409,7 +392,6 @@
             this.btnBlue10.TabIndex = 85;
             this.btnBlue10.Text = "10";
             this.btnBlue10.UseVisualStyleBackColor = true;
-            this.btnBlue10.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue11
             // 
@@ -420,7 +402,6 @@
             this.btnBlue11.TabIndex = 84;
             this.btnBlue11.Text = "11";
             this.btnBlue11.UseVisualStyleBackColor = true;
-            this.btnBlue11.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue12
             // 
@@ -431,7 +412,6 @@
             this.btnBlue12.TabIndex = 83;
             this.btnBlue12.Text = "12";
             this.btnBlue12.UseVisualStyleBackColor = true;
-            this.btnBlue12.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue13
             // 
@@ -442,7 +422,6 @@
             this.btnBlue13.TabIndex = 82;
             this.btnBlue13.Text = "13";
             this.btnBlue13.UseVisualStyleBackColor = true;
-            this.btnBlue13.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue14
             // 
@@ -453,7 +432,6 @@
             this.btnBlue14.TabIndex = 81;
             this.btnBlue14.Text = "14";
             this.btnBlue14.UseVisualStyleBackColor = true;
-            this.btnBlue14.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue15
             // 
@@ -464,7 +442,6 @@
             this.btnBlue15.TabIndex = 80;
             this.btnBlue15.Text = "15";
             this.btnBlue15.UseVisualStyleBackColor = true;
-            this.btnBlue15.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue16
             // 
@@ -475,7 +452,6 @@
             this.btnBlue16.TabIndex = 79;
             this.btnBlue16.Text = "16";
             this.btnBlue16.UseVisualStyleBackColor = true;
-            this.btnBlue16.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue9
             // 
@@ -486,7 +462,6 @@
             this.btnBlue9.TabIndex = 78;
             this.btnBlue9.Text = "9";
             this.btnBlue9.UseVisualStyleBackColor = true;
-            this.btnBlue9.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue2
             // 
@@ -497,7 +472,6 @@
             this.btnBlue2.TabIndex = 77;
             this.btnBlue2.Text = "2";
             this.btnBlue2.UseVisualStyleBackColor = true;
-            this.btnBlue2.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue3
             // 
@@ -508,7 +482,6 @@
             this.btnBlue3.TabIndex = 76;
             this.btnBlue3.Text = "3";
             this.btnBlue3.UseVisualStyleBackColor = true;
-            this.btnBlue3.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue4
             // 
@@ -519,7 +492,6 @@
             this.btnBlue4.TabIndex = 75;
             this.btnBlue4.Text = "4";
             this.btnBlue4.UseVisualStyleBackColor = true;
-            this.btnBlue4.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue5
             // 
@@ -530,7 +502,6 @@
             this.btnBlue5.TabIndex = 74;
             this.btnBlue5.Text = "5";
             this.btnBlue5.UseVisualStyleBackColor = true;
-            this.btnBlue5.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue6
             // 
@@ -541,7 +512,6 @@
             this.btnBlue6.TabIndex = 73;
             this.btnBlue6.Text = "6";
             this.btnBlue6.UseVisualStyleBackColor = true;
-            this.btnBlue6.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue7
             // 
@@ -552,7 +522,6 @@
             this.btnBlue7.TabIndex = 72;
             this.btnBlue7.Text = "7";
             this.btnBlue7.UseVisualStyleBackColor = true;
-            this.btnBlue7.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue8
             // 
@@ -563,7 +532,6 @@
             this.btnBlue8.TabIndex = 71;
             this.btnBlue8.Text = "8";
             this.btnBlue8.UseVisualStyleBackColor = true;
-            this.btnBlue8.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // btnBlue1
             // 
@@ -574,7 +542,6 @@
             this.btnBlue1.TabIndex = 70;
             this.btnBlue1.Text = "1";
             this.btnBlue1.UseVisualStyleBackColor = true;
-            this.btnBlue1.Click += new System.EventHandler(this.changeBlueButtonColor);
             // 
             // label11
             // 
@@ -620,7 +587,6 @@
             this.cbxIsBraveCode.Size = new System.Drawing.Size(15, 14);
             this.cbxIsBraveCode.TabIndex = 60;
             this.cbxIsBraveCode.UseVisualStyleBackColor = true;
-            this.cbxIsBraveCode.CheckedChanged += new System.EventHandler(this.cbxIsBraveCode_CheckedChanged);
             // 
             // tbxBraveCode
             // 
@@ -648,7 +614,6 @@
             this.btn33.TabIndex = 56;
             this.btn33.Text = "33";
             this.btn33.UseVisualStyleBackColor = true;
-            this.btn33.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn26
             // 
@@ -659,7 +624,6 @@
             this.btn26.TabIndex = 55;
             this.btn26.Text = "26";
             this.btn26.UseVisualStyleBackColor = true;
-            this.btn26.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn27
             // 
@@ -670,7 +634,6 @@
             this.btn27.TabIndex = 54;
             this.btn27.Text = "27";
             this.btn27.UseVisualStyleBackColor = true;
-            this.btn27.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn28
             // 
@@ -681,7 +644,6 @@
             this.btn28.TabIndex = 53;
             this.btn28.Text = "28";
             this.btn28.UseVisualStyleBackColor = true;
-            this.btn28.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn29
             // 
@@ -692,7 +654,6 @@
             this.btn29.TabIndex = 52;
             this.btn29.Text = "29";
             this.btn29.UseVisualStyleBackColor = true;
-            this.btn29.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn30
             // 
@@ -703,7 +664,6 @@
             this.btn30.TabIndex = 51;
             this.btn30.Text = "30";
             this.btn30.UseVisualStyleBackColor = true;
-            this.btn30.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn31
             // 
@@ -714,7 +674,6 @@
             this.btn31.TabIndex = 50;
             this.btn31.Text = "31";
             this.btn31.UseVisualStyleBackColor = true;
-            this.btn31.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn32
             // 
@@ -725,7 +684,6 @@
             this.btn32.TabIndex = 49;
             this.btn32.Text = "32";
             this.btn32.UseVisualStyleBackColor = true;
-            this.btn32.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn25
             // 
@@ -736,7 +694,6 @@
             this.btn25.TabIndex = 48;
             this.btn25.Text = "25";
             this.btn25.UseVisualStyleBackColor = true;
-            this.btn25.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn18
             // 
@@ -747,7 +704,6 @@
             this.btn18.TabIndex = 47;
             this.btn18.Text = "18";
             this.btn18.UseVisualStyleBackColor = true;
-            this.btn18.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn19
             // 
@@ -758,7 +714,6 @@
             this.btn19.TabIndex = 46;
             this.btn19.Text = "19";
             this.btn19.UseVisualStyleBackColor = true;
-            this.btn19.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn20
             // 
@@ -769,7 +724,6 @@
             this.btn20.TabIndex = 45;
             this.btn20.Text = "20";
             this.btn20.UseVisualStyleBackColor = true;
-            this.btn20.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn21
             // 
@@ -780,7 +734,6 @@
             this.btn21.TabIndex = 44;
             this.btn21.Text = "21";
             this.btn21.UseVisualStyleBackColor = true;
-            this.btn21.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn22
             // 
@@ -791,7 +744,6 @@
             this.btn22.TabIndex = 43;
             this.btn22.Text = "22";
             this.btn22.UseVisualStyleBackColor = true;
-            this.btn22.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn23
             // 
@@ -802,7 +754,6 @@
             this.btn23.TabIndex = 42;
             this.btn23.Text = "23";
             this.btn23.UseVisualStyleBackColor = true;
-            this.btn23.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn24
             // 
@@ -813,7 +764,6 @@
             this.btn24.TabIndex = 41;
             this.btn24.Text = "24";
             this.btn24.UseVisualStyleBackColor = true;
-            this.btn24.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn17
             // 
@@ -824,7 +774,6 @@
             this.btn17.TabIndex = 40;
             this.btn17.Text = "17";
             this.btn17.UseVisualStyleBackColor = true;
-            this.btn17.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn10
             // 
@@ -835,7 +784,6 @@
             this.btn10.TabIndex = 39;
             this.btn10.Text = "10";
             this.btn10.UseVisualStyleBackColor = true;
-            this.btn10.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn11
             // 
@@ -846,7 +794,6 @@
             this.btn11.TabIndex = 38;
             this.btn11.Text = "11";
             this.btn11.UseVisualStyleBackColor = true;
-            this.btn11.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn12
             // 
@@ -857,7 +804,6 @@
             this.btn12.TabIndex = 37;
             this.btn12.Text = "12";
             this.btn12.UseVisualStyleBackColor = true;
-            this.btn12.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn13
             // 
@@ -868,7 +814,6 @@
             this.btn13.TabIndex = 36;
             this.btn13.Text = "13";
             this.btn13.UseVisualStyleBackColor = true;
-            this.btn13.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn14
             // 
@@ -879,7 +824,6 @@
             this.btn14.TabIndex = 35;
             this.btn14.Text = "14";
             this.btn14.UseVisualStyleBackColor = true;
-            this.btn14.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn15
             // 
@@ -890,7 +834,6 @@
             this.btn15.TabIndex = 34;
             this.btn15.Text = "15";
             this.btn15.UseVisualStyleBackColor = true;
-            this.btn15.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn16
             // 
@@ -901,7 +844,6 @@
             this.btn16.TabIndex = 33;
             this.btn16.Text = "16";
             this.btn16.UseVisualStyleBackColor = true;
-            this.btn16.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn9
             // 
@@ -912,7 +854,6 @@
             this.btn9.TabIndex = 32;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn2
             // 
@@ -923,7 +864,6 @@
             this.btn2.TabIndex = 31;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn3
             // 
@@ -934,7 +874,6 @@
             this.btn3.TabIndex = 30;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn4
             // 
@@ -945,7 +884,6 @@
             this.btn4.TabIndex = 29;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn5
             // 
@@ -956,7 +894,6 @@
             this.btn5.TabIndex = 28;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn6
             // 
@@ -967,7 +904,6 @@
             this.btn6.TabIndex = 27;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn7
             // 
@@ -978,7 +914,6 @@
             this.btn7.TabIndex = 26;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn8
             // 
@@ -989,7 +924,6 @@
             this.btn8.TabIndex = 25;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btn1
             // 
@@ -1000,7 +934,6 @@
             this.btn1.TabIndex = 21;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.changeRedButtonColor);
             // 
             // btnCounterSelectAll
             // 
@@ -1010,7 +943,6 @@
             this.btnCounterSelectAll.TabIndex = 16;
             this.btnCounterSelectAll.Text = "反选";
             this.btnCounterSelectAll.UseVisualStyleBackColor = true;
-            this.btnCounterSelectAll.Click += new System.EventHandler(this.btnCounterSelectAll_Click);
             // 
             // btnClear
             // 
@@ -1020,7 +952,6 @@
             this.btnClear.TabIndex = 15;
             this.btnClear.Text = "清除";
             this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSelectAll
             // 
@@ -1030,7 +961,6 @@
             this.btnSelectAll.TabIndex = 14;
             this.btnSelectAll.Text = "全选";
             this.btnSelectAll.UseVisualStyleBackColor = true;
-            this.btnSelectAll.Click += new System.EventHandler(this.btnSelectAll_Click);
             // 
             // label4
             // 
@@ -1083,7 +1013,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(293, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(357, 852);
+            this.groupBox2.Size = new System.Drawing.Size(357, 793);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "过滤设置";
@@ -1111,7 +1041,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 16);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(351, 833);
+            this.tabControl1.Size = new System.Drawing.Size(351, 774);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -1120,7 +1050,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(343, 807);
+            this.tabPage1.Size = new System.Drawing.Size(343, 748);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "原始数据";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1133,7 +1063,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(337, 801);
+            this.panel1.Size = new System.Drawing.Size(337, 742);
             this.panel1.TabIndex = 1;
             // 
             // button1
@@ -2873,18 +2803,14 @@
             this.tabPage17.Text = "7叠21";
             this.tabPage17.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FrmMother
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1364, 858);
-            this.Controls.Add(this.toolStripContainer1);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "过滤";
-            this.toolStripContainer1.ContentPanel.ResumeLayout(false);
-            this.toolStripContainer1.ResumeLayout(false);
-            this.toolStripContainer1.PerformLayout();
+            this.ClientSize = new System.Drawing.Size(1297, 799);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Name = "FrmMother";
+            this.Text = "FrmMother";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -2900,25 +2826,35 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStripContainer toolStripContainer1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblRedTotalNumber;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btnCounterSelectAll;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnSelectAll;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Label lblCurrentBetStage;
+        private System.Windows.Forms.Button btnBet;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnBlue10;
+        private System.Windows.Forms.Button btnBlue11;
+        private System.Windows.Forms.Button btnBlue12;
+        private System.Windows.Forms.Button btnBlue13;
+        private System.Windows.Forms.Button btnBlue14;
+        private System.Windows.Forms.Button btnBlue15;
+        private System.Windows.Forms.Button btnBlue16;
+        private System.Windows.Forms.Button btnBlue9;
+        private System.Windows.Forms.Button btnBlue2;
+        private System.Windows.Forms.Button btnBlue3;
+        private System.Windows.Forms.Button btnBlue4;
+        private System.Windows.Forms.Button btnBlue5;
+        private System.Windows.Forms.Button btnBlue6;
+        private System.Windows.Forms.Button btnBlue7;
+        private System.Windows.Forms.Button btnBlue8;
+        private System.Windows.Forms.Button btnBlue1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblBlueNumber;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox cbxIsBraveCode;
+        private System.Windows.Forms.TextBox tbxBraveCode;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn33;
         private System.Windows.Forms.Button btn26;
         private System.Windows.Forms.Button btn27;
         private System.Windows.Forms.Button btn28;
@@ -2943,116 +2879,28 @@
         private System.Windows.Forms.Button btn15;
         private System.Windows.Forms.Button btn16;
         private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btn33;
-        private System.Windows.Forms.TextBox tbxBraveCode;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox cbxIsBraveCode;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnBlue10;
-        private System.Windows.Forms.Button btnBlue11;
-        private System.Windows.Forms.Button btnBlue12;
-        private System.Windows.Forms.Button btnBlue13;
-        private System.Windows.Forms.Button btnBlue14;
-        private System.Windows.Forms.Button btnBlue15;
-        private System.Windows.Forms.Button btnBlue16;
-        private System.Windows.Forms.Button btnBlue9;
-        private System.Windows.Forms.Button btnBlue2;
-        private System.Windows.Forms.Button btnBlue3;
-        private System.Windows.Forms.Button btnBlue4;
-        private System.Windows.Forms.Button btnBlue5;
-        private System.Windows.Forms.Button btnBlue6;
-        private System.Windows.Forms.Button btnBlue7;
-        private System.Windows.Forms.Button btnBlue8;
-        private System.Windows.Forms.Button btnBlue1;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label lblBlueNumber;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnBet;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btnCounterSelectAll;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnSelectAll;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblRedTotalNumber;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label lblCurrentBetStage;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TabPage tabPage8;
-        private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.TabPage tabPage11;
-        private System.Windows.Forms.TabPage tabPage12;
-        private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.TabPage tabPage14;
-        private System.Windows.Forms.TabPage tabPage15;
-        private System.Windows.Forms.TabPage tabPage16;
-        private System.Windows.Forms.TabPage tabPage17;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.ComboBox comboBox25;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox comboBox23;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.ComboBox comboBox22;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.ComboBox comboBox20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.CheckBox checkBox54;
         private System.Windows.Forms.ComboBox comboBox54;
         private System.Windows.Forms.Label label36;
@@ -3124,10 +2972,85 @@
         private System.Windows.Forms.ComboBox comboBox27;
         private System.Windows.Forms.CheckBox checkBox27;
         private System.Windows.Forms.CheckBox checkBox26;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox comboBox25;
+        private System.Windows.Forms.CheckBox checkBox25;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.ComboBox comboBox24;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox23;
+        private System.Windows.Forms.CheckBox checkBox23;
+        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox comboBox21;
+        private System.Windows.Forms.CheckBox checkBox21;
+        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.ComboBox comboBox26;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label17;
-
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.TabPage tabPage15;
+        private System.Windows.Forms.TabPage tabPage16;
+        private System.Windows.Forms.TabPage tabPage17;
     }
 }
-

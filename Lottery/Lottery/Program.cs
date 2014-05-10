@@ -27,7 +27,8 @@ namespace Lottery
             {
                 AppInitAction action = new AppInitAction();
                 action.RunInProgress();
-                Form1 form1 = new Form1();
+              //  Form1 form1 = new Form1();
+                FrmMain form1 = new FrmMain();
                 form1.ShowDialog();
             }
             catch (Exception e)
