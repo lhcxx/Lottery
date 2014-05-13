@@ -210,8 +210,40 @@ namespace Lottery
                 tbxBraveCode.Clear();
                 tbxBraveCode.Enabled = false;
             }
-               
+            
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e){
+            if (checkBox1.Checked){
+                _cbx1.Enabled = true;
+                _cbx2.Enabled = true;
+            }
+            else{
+                _cbx1.Enabled = false;
+                _cbx2.Enabled = false;
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                _cbx3.Enabled = true;
+                _cbx4.Enabled = true;
+            }
+            else
+            {
+                _cbx3.Enabled = false;
+                _cbx4.Enabled = false;
+            }
+        }
+
+ 
+  
+
+
+
+
 
 
         
