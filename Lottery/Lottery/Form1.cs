@@ -238,6 +238,76 @@ namespace Lottery
             }
         }
 
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                _cbx5.Enabled = true;
+                _cbx6.Enabled = true;
+            }
+            else
+            {
+                _cbx5.Enabled = false;
+                _cbx6.Enabled = false;
+            }
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked)
+            {
+                _cbx7.Enabled = true;
+                _cbx8.Enabled = true;
+            }
+            else
+            {
+                _cbx7.Enabled = false;
+                _cbx8.Enabled = false;
+            }
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked)
+            {
+                _cbx9.Enabled = true;
+                _cbx10.Enabled = true;
+            }
+            else
+            {
+                _cbx9.Enabled = false;
+                _cbx10.Enabled = false;
+            }
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox6.Checked)
+            {
+                _cbx11.Enabled = true;
+                _cbx12.Enabled = true;
+            }
+            else
+            {
+                _cbx11.Enabled = false;
+                _cbx12.Enabled = false;
+            }
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox7.Checked)
+            {
+                _cbx13.Enabled = true;
+                _cbx14.Enabled = true;
+            }
+            else
+            {
+                _cbx13.Enabled = false;
+                _cbx14.Enabled = false;
+            }
+        }
+
  
   
 
