@@ -308,6 +308,297 @@ namespace Lottery
             }
         }
 
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox8.Checked)
+            {
+                _cbx15.Enabled = true;
+                _cbx16.Enabled = true;
+            }
+            else
+            {
+                _cbx15.Enabled = false;
+                _cbx16.Enabled = false;
+            }
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox9.Checked)
+            {
+                _cbx17.Enabled = true;
+                _cbx18.Enabled = true;
+            }
+            else
+            {
+                _cbx17.Enabled = false;
+                _cbx18.Enabled = false;
+            }
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox10.Checked)
+            {
+                _cbx19.Enabled = true;
+                _cbx20.Enabled = true;
+            }
+            else
+            {
+                _cbx19.Enabled = false;
+                _cbx20.Enabled = false;
+            }
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox11.Checked)
+            {
+                _cbx21.Enabled = true;
+                _cbx22.Enabled = true;
+            }
+            else
+            {
+                _cbx21.Enabled = false;
+                _cbx22.Enabled = false;
+            }
+        }
+
+        private void checkBox12_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox12.Checked)
+            {
+                _cbx23.Enabled = true;
+                _cbx24.Enabled = true;
+            }
+            else
+            {
+                _cbx23.Enabled = false;
+                _cbx24.Enabled = false;
+            }
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox13.Checked)
+            {
+                _cbx25.Enabled = true;
+                _cbx26.Enabled = true;
+            }
+            else
+            {
+                _cbx25.Enabled = false;
+                _cbx26.Enabled = false;
+            }
+        }
+
+        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox14.Checked)
+            {
+                _cbx27.Enabled = true;
+                _cbx28.Enabled = true;
+            }
+            else
+            {
+                _cbx27.Enabled = false;
+                _cbx28.Enabled = false;
+            }
+        }
+
+        private void checkBox15_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox15.Checked)
+            {
+                _cbx29.Enabled = true;
+                _cbx30.Enabled = true;
+            }
+            else
+            {
+                _cbx29.Enabled = false;
+                _cbx30.Enabled = false;
+            }
+        }
+
+        private void checkBox16_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox16.Checked)
+            {
+                _cbx31.Enabled = true;
+                _cbx32.Enabled = true;
+            }
+            else
+            {
+                _cbx31.Enabled = false;
+                _cbx32.Enabled = false;
+            }
+        }
+
+        private void checkBox17_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox17.Checked)
+            {
+                _cbx33.Enabled = true;
+                _cbx34.Enabled = true;
+            }
+            else
+            {
+                _cbx33.Enabled = false;
+                _cbx34.Enabled = false;
+            }
+        }
+
+        private void checkBox18_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox18.Checked)
+            {
+                _cbx35.Enabled = true;
+                _cbx36.Enabled = true;
+            }
+            else
+            {
+                _cbx35.Enabled = false;
+                _cbx36.Enabled = false;
+            }
+        }
+
+        private void checkBox19_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox19.Checked)
+            {
+                _cbx37.Enabled = true;
+                _cbx38.Enabled = true;
+            }
+            else
+            {
+                _cbx37.Enabled = false;
+                _cbx38.Enabled = false;
+            }
+        }
+
+        private void checkBox20_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox20.Checked)
+            {
+                _cbx39.Enabled = true;
+                _cbx40.Enabled = true;
+            }
+            else
+            {
+                _cbx39.Enabled = false;
+                _cbx40.Enabled = false;
+            }
+        }
+
+        private void checkBox21_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox21.Checked)
+            {
+                _cbx41.Enabled = true;
+                _cbx42.Enabled = true;
+            }
+            else
+            {
+                _cbx41.Enabled = false;
+                _cbx42.Enabled = false;
+            }
+        }
+
+        private void checkBox22_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox22.Checked)
+            {
+                _cbx43.Enabled = true;
+                _cbx44.Enabled = true;
+            }
+            else
+            {
+                _cbx43.Enabled = false;
+                _cbx44.Enabled = false;
+            }
+        }
+
+        private void checkBox23_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox23.Checked)
+            {
+                _cbx45.Enabled = true;
+                _cbx46.Enabled = true;
+            }
+            else
+            {
+                _cbx45.Enabled = false;
+                _cbx46.Enabled = false;
+            }
+        }
+
+        private void checkBox24_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox24.Checked)
+            {
+                _cbx47.Enabled = true;
+                _cbx48.Enabled = true;
+            }
+            else
+            {
+                _cbx47.Enabled = false;
+                _cbx48.Enabled = false;
+            }
+        }
+
+        private void checkBox25_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox25.Checked)
+            {
+                _cbx49.Enabled = true;
+                _cbx50.Enabled = true;
+            }
+            else
+            {
+                _cbx49.Enabled = false;
+                _cbx50.Enabled = false;
+            }
+
+        }
+
+        private void checkBox26_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox26.Checked)
+            {
+                _cbx51.Enabled = true;
+                _cbx52.Enabled = true;
+            }
+            else
+            {
+                _cbx51.Enabled = false;
+                _cbx52.Enabled = false;
+            }
+        }
+
+        private void checkBox27_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox27.Checked)
+            {
+                _cbx53.Enabled = true;
+                _cbx54.Enabled = true;
+            }
+            else
+            {
+                _cbx53.Enabled = false;
+                _cbx54.Enabled = false;
+            }
+        }
+
+        private void _btnSelectAll_Click(object sender, EventArgs e)
+        {
+            foreach (Control ctr in this.Controls){
+                if ((ctr as CheckBox) != null){
+                    CheckBox tmp = ctr as CheckBox;
+                    tmp.Checked = true;
+                }
+            }
+        }
+
  
   
 

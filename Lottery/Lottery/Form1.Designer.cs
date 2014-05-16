@@ -104,134 +104,107 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this._btnSelectAll = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
             this._cbx54 = new System.Windows.Forms.ComboBox();
             this.label36 = new System.Windows.Forms.Label();
             this._cbx53 = new System.Windows.Forms.ComboBox();
             this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
             this._cbx52 = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
             this._cbx51 = new System.Windows.Forms.ComboBox();
             this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox502 = new System.Windows.Forms.CheckBox();
             this._cbx50 = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
             this._cbx49 = new System.Windows.Forms.ComboBox();
             this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox482 = new System.Windows.Forms.CheckBox();
             this._cbx48 = new System.Windows.Forms.ComboBox();
             this.label33 = new System.Windows.Forms.Label();
             this._cbx47 = new System.Windows.Forms.ComboBox();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox462 = new System.Windows.Forms.CheckBox();
             this._cbx46 = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
             this._cbx45 = new System.Windows.Forms.ComboBox();
             this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox442 = new System.Windows.Forms.CheckBox();
             this._cbx44 = new System.Windows.Forms.ComboBox();
             this.label31 = new System.Windows.Forms.Label();
             this._cbx43 = new System.Windows.Forms.ComboBox();
             this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox422 = new System.Windows.Forms.CheckBox();
             this._cbx42 = new System.Windows.Forms.ComboBox();
             this.label30 = new System.Windows.Forms.Label();
             this._cbx41 = new System.Windows.Forms.ComboBox();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox401 = new System.Windows.Forms.CheckBox();
             this._cbx40 = new System.Windows.Forms.ComboBox();
             this.label29 = new System.Windows.Forms.Label();
             this._cbx39 = new System.Windows.Forms.ComboBox();
             this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox381 = new System.Windows.Forms.CheckBox();
             this._cbx38 = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
             this._cbx37 = new System.Windows.Forms.ComboBox();
             this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox361 = new System.Windows.Forms.CheckBox();
             this._cbx36 = new System.Windows.Forms.ComboBox();
             this.label27 = new System.Windows.Forms.Label();
             this._cbx35 = new System.Windows.Forms.ComboBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox341 = new System.Windows.Forms.CheckBox();
             this._cbx34 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this._cbx33 = new System.Windows.Forms.ComboBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox321 = new System.Windows.Forms.CheckBox();
             this._cbx32 = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
             this._cbx31 = new System.Windows.Forms.ComboBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox301 = new System.Windows.Forms.CheckBox();
             this._cbx30 = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this._cbx29 = new System.Windows.Forms.ComboBox();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox282 = new System.Windows.Forms.CheckBox();
             this._cbx28 = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
             this._cbx27 = new System.Windows.Forms.ComboBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox262 = new System.Windows.Forms.CheckBox();
             this.label22 = new System.Windows.Forms.Label();
             this._cbx25 = new System.Windows.Forms.ComboBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox242 = new System.Windows.Forms.CheckBox();
             this._cbx24 = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this._cbx23 = new System.Windows.Forms.ComboBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox222 = new System.Windows.Forms.CheckBox();
             this._cbx22 = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this._cbx21 = new System.Windows.Forms.ComboBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox202 = new System.Windows.Forms.CheckBox();
             this._cbx20 = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this._cbx19 = new System.Windows.Forms.ComboBox();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox182 = new System.Windows.Forms.CheckBox();
             this._cbx18 = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this._cbx17 = new System.Windows.Forms.ComboBox();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox162 = new System.Windows.Forms.CheckBox();
             this._cbx16 = new System.Windows.Forms.ComboBox();
             this._cbx15 = new System.Windows.Forms.ComboBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox142 = new System.Windows.Forms.CheckBox();
             this._cbx14 = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
             this._cbx13 = new System.Windows.Forms.ComboBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox122 = new System.Windows.Forms.CheckBox();
             this._cbx12 = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this._cbx11 = new System.Windows.Forms.ComboBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox102 = new System.Windows.Forms.CheckBox();
             this._cbx10 = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this._cbx9 = new System.Windows.Forms.ComboBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox82 = new System.Windows.Forms.CheckBox();
             this._cbx8 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this._cbx7 = new System.Windows.Forms.ComboBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
             this._cbx6 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this._cbx5 = new System.Windows.Forms.ComboBox();
-            this.checkBox421 = new System.Windows.Forms.CheckBox();
             this._cbx4 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this._cbx3 = new System.Windows.Forms.ComboBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox2111 = new System.Windows.Forms.CheckBox();
             this._cbx2 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -1161,6 +1134,7 @@
             this._btnSelectAll.TabIndex = 15;
             this._btnSelectAll.Text = "选中";
             this._btnSelectAll.UseVisualStyleBackColor = true;
+            this._btnSelectAll.Click += new System.EventHandler(this._btnSelectAll_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -1171,134 +1145,107 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
-            this.tableLayoutPanel2.Controls.Add(this.checkBox54, 4, 26);
             this.tableLayoutPanel2.Controls.Add(this._cbx54, 3, 26);
             this.tableLayoutPanel2.Controls.Add(this.label36, 2, 26);
             this.tableLayoutPanel2.Controls.Add(this._cbx53, 1, 26);
             this.tableLayoutPanel2.Controls.Add(this.checkBox27, 0, 26);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox52, 4, 25);
             this.tableLayoutPanel2.Controls.Add(this._cbx52, 3, 25);
             this.tableLayoutPanel2.Controls.Add(this.label35, 2, 25);
             this.tableLayoutPanel2.Controls.Add(this._cbx51, 1, 25);
             this.tableLayoutPanel2.Controls.Add(this.checkBox26, 0, 25);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox502, 4, 24);
             this.tableLayoutPanel2.Controls.Add(this._cbx50, 3, 24);
             this.tableLayoutPanel2.Controls.Add(this.label34, 2, 24);
             this.tableLayoutPanel2.Controls.Add(this._cbx49, 1, 24);
             this.tableLayoutPanel2.Controls.Add(this.checkBox25, 0, 24);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox482, 4, 23);
             this.tableLayoutPanel2.Controls.Add(this._cbx48, 3, 23);
             this.tableLayoutPanel2.Controls.Add(this.label33, 2, 23);
             this.tableLayoutPanel2.Controls.Add(this._cbx47, 1, 23);
             this.tableLayoutPanel2.Controls.Add(this.checkBox24, 0, 23);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox462, 4, 22);
             this.tableLayoutPanel2.Controls.Add(this._cbx46, 3, 22);
             this.tableLayoutPanel2.Controls.Add(this.label32, 2, 22);
             this.tableLayoutPanel2.Controls.Add(this._cbx45, 1, 22);
             this.tableLayoutPanel2.Controls.Add(this.checkBox23, 0, 22);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox442, 4, 21);
             this.tableLayoutPanel2.Controls.Add(this._cbx44, 3, 21);
             this.tableLayoutPanel2.Controls.Add(this.label31, 2, 21);
             this.tableLayoutPanel2.Controls.Add(this._cbx43, 1, 21);
             this.tableLayoutPanel2.Controls.Add(this.checkBox22, 0, 21);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox422, 4, 20);
             this.tableLayoutPanel2.Controls.Add(this._cbx42, 3, 20);
             this.tableLayoutPanel2.Controls.Add(this.label30, 2, 20);
             this.tableLayoutPanel2.Controls.Add(this._cbx41, 1, 20);
             this.tableLayoutPanel2.Controls.Add(this.checkBox21, 0, 20);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox401, 4, 19);
             this.tableLayoutPanel2.Controls.Add(this._cbx40, 3, 19);
             this.tableLayoutPanel2.Controls.Add(this.label29, 2, 19);
             this.tableLayoutPanel2.Controls.Add(this._cbx39, 1, 19);
             this.tableLayoutPanel2.Controls.Add(this.checkBox20, 0, 19);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox381, 4, 18);
             this.tableLayoutPanel2.Controls.Add(this._cbx38, 3, 18);
             this.tableLayoutPanel2.Controls.Add(this.label28, 2, 18);
             this.tableLayoutPanel2.Controls.Add(this._cbx37, 1, 18);
             this.tableLayoutPanel2.Controls.Add(this.checkBox19, 0, 18);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox361, 4, 17);
             this.tableLayoutPanel2.Controls.Add(this._cbx36, 3, 17);
             this.tableLayoutPanel2.Controls.Add(this.label27, 2, 17);
             this.tableLayoutPanel2.Controls.Add(this._cbx35, 1, 17);
             this.tableLayoutPanel2.Controls.Add(this.checkBox18, 0, 17);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox341, 4, 16);
             this.tableLayoutPanel2.Controls.Add(this._cbx34, 3, 16);
             this.tableLayoutPanel2.Controls.Add(this.label26, 2, 16);
             this.tableLayoutPanel2.Controls.Add(this._cbx33, 1, 16);
             this.tableLayoutPanel2.Controls.Add(this.checkBox17, 0, 16);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox321, 4, 15);
             this.tableLayoutPanel2.Controls.Add(this._cbx32, 3, 15);
             this.tableLayoutPanel2.Controls.Add(this.label25, 2, 15);
             this.tableLayoutPanel2.Controls.Add(this._cbx31, 1, 15);
             this.tableLayoutPanel2.Controls.Add(this.checkBox16, 0, 15);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox301, 4, 14);
             this.tableLayoutPanel2.Controls.Add(this._cbx30, 3, 14);
             this.tableLayoutPanel2.Controls.Add(this.label24, 2, 14);
             this.tableLayoutPanel2.Controls.Add(this._cbx29, 1, 14);
             this.tableLayoutPanel2.Controls.Add(this.checkBox15, 0, 14);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox282, 4, 13);
             this.tableLayoutPanel2.Controls.Add(this._cbx28, 3, 13);
             this.tableLayoutPanel2.Controls.Add(this.label23, 2, 13);
             this.tableLayoutPanel2.Controls.Add(this._cbx27, 1, 13);
             this.tableLayoutPanel2.Controls.Add(this.checkBox14, 0, 13);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox262, 4, 12);
             this.tableLayoutPanel2.Controls.Add(this.label22, 2, 12);
             this.tableLayoutPanel2.Controls.Add(this._cbx25, 1, 12);
             this.tableLayoutPanel2.Controls.Add(this.checkBox13, 0, 12);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox242, 4, 11);
             this.tableLayoutPanel2.Controls.Add(this._cbx24, 3, 11);
             this.tableLayoutPanel2.Controls.Add(this.label21, 2, 11);
             this.tableLayoutPanel2.Controls.Add(this._cbx23, 1, 11);
             this.tableLayoutPanel2.Controls.Add(this.checkBox12, 0, 11);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox222, 4, 10);
             this.tableLayoutPanel2.Controls.Add(this._cbx22, 3, 10);
             this.tableLayoutPanel2.Controls.Add(this.label20, 2, 10);
             this.tableLayoutPanel2.Controls.Add(this._cbx21, 1, 10);
             this.tableLayoutPanel2.Controls.Add(this.checkBox11, 0, 10);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox202, 4, 9);
             this.tableLayoutPanel2.Controls.Add(this._cbx20, 3, 9);
             this.tableLayoutPanel2.Controls.Add(this.label19, 2, 9);
             this.tableLayoutPanel2.Controls.Add(this._cbx19, 1, 9);
             this.tableLayoutPanel2.Controls.Add(this.checkBox10, 0, 9);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox182, 4, 8);
             this.tableLayoutPanel2.Controls.Add(this._cbx18, 3, 8);
             this.tableLayoutPanel2.Controls.Add(this.label18, 2, 8);
             this.tableLayoutPanel2.Controls.Add(this._cbx17, 1, 8);
             this.tableLayoutPanel2.Controls.Add(this.checkBox9, 0, 8);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox162, 4, 7);
             this.tableLayoutPanel2.Controls.Add(this._cbx16, 3, 7);
             this.tableLayoutPanel2.Controls.Add(this._cbx15, 1, 7);
             this.tableLayoutPanel2.Controls.Add(this.checkBox8, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox142, 4, 6);
             this.tableLayoutPanel2.Controls.Add(this._cbx14, 3, 6);
             this.tableLayoutPanel2.Controls.Add(this.label16, 2, 6);
             this.tableLayoutPanel2.Controls.Add(this._cbx13, 1, 6);
             this.tableLayoutPanel2.Controls.Add(this.checkBox7, 0, 6);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox122, 4, 5);
             this.tableLayoutPanel2.Controls.Add(this._cbx12, 3, 5);
             this.tableLayoutPanel2.Controls.Add(this.label15, 2, 5);
             this.tableLayoutPanel2.Controls.Add(this._cbx11, 1, 5);
             this.tableLayoutPanel2.Controls.Add(this.checkBox6, 0, 5);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox102, 4, 4);
             this.tableLayoutPanel2.Controls.Add(this._cbx10, 3, 4);
             this.tableLayoutPanel2.Controls.Add(this.label14, 2, 4);
             this.tableLayoutPanel2.Controls.Add(this._cbx9, 1, 4);
             this.tableLayoutPanel2.Controls.Add(this.checkBox5, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox82, 4, 3);
             this.tableLayoutPanel2.Controls.Add(this._cbx8, 3, 3);
             this.tableLayoutPanel2.Controls.Add(this.label13, 2, 3);
             this.tableLayoutPanel2.Controls.Add(this._cbx7, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.checkBox4, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox62, 4, 2);
             this.tableLayoutPanel2.Controls.Add(this._cbx6, 3, 2);
             this.tableLayoutPanel2.Controls.Add(this.label12, 2, 2);
             this.tableLayoutPanel2.Controls.Add(this._cbx5, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox421, 4, 1);
             this.tableLayoutPanel2.Controls.Add(this._cbx4, 3, 1);
             this.tableLayoutPanel2.Controls.Add(this.label8, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this._cbx3, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.checkBox2, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.checkBox2111, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this._cbx2, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label7, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.checkBox1, 0, 0);
@@ -1343,17 +1290,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(313, 787);
             this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // checkBox54
-            // 
-            this.checkBox54.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(290, 654);
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(20, 17);
-            this.checkBox54.TabIndex = 141;
-            this.checkBox54.Text = "checkBox54";
-            this.checkBox54.UseVisualStyleBackColor = true;
             // 
             // _cbx54
             // 
@@ -1455,17 +1391,7 @@
             this.checkBox27.TabIndex = 137;
             this.checkBox27.Text = "checkBox53";
             this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // checkBox52
-            // 
-            this.checkBox52.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox52.AutoSize = true;
-            this.checkBox52.Location = new System.Drawing.Point(290, 629);
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(20, 17);
-            this.checkBox52.TabIndex = 136;
-            this.checkBox52.Text = "checkBox52";
-            this.checkBox52.UseVisualStyleBackColor = true;
+            this.checkBox27.CheckedChanged += new System.EventHandler(this.checkBox27_CheckedChanged);
             // 
             // _cbx52
             // 
@@ -1567,17 +1493,7 @@
             this.checkBox26.TabIndex = 132;
             this.checkBox26.Text = "checkBox51";
             this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // checkBox502
-            // 
-            this.checkBox502.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox502.AutoSize = true;
-            this.checkBox502.Location = new System.Drawing.Point(290, 604);
-            this.checkBox502.Name = "checkBox502";
-            this.checkBox502.Size = new System.Drawing.Size(20, 17);
-            this.checkBox502.TabIndex = 131;
-            this.checkBox502.Text = "checkBox50";
-            this.checkBox502.UseVisualStyleBackColor = true;
+            this.checkBox26.CheckedChanged += new System.EventHandler(this.checkBox26_CheckedChanged);
             // 
             // _cbx50
             // 
@@ -1679,17 +1595,7 @@
             this.checkBox25.TabIndex = 127;
             this.checkBox25.Text = "checkBox49";
             this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox482
-            // 
-            this.checkBox482.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox482.AutoSize = true;
-            this.checkBox482.Location = new System.Drawing.Point(290, 579);
-            this.checkBox482.Name = "checkBox482";
-            this.checkBox482.Size = new System.Drawing.Size(20, 17);
-            this.checkBox482.TabIndex = 126;
-            this.checkBox482.Text = "checkBox48";
-            this.checkBox482.UseVisualStyleBackColor = true;
+            this.checkBox25.CheckedChanged += new System.EventHandler(this.checkBox25_CheckedChanged);
             // 
             // _cbx48
             // 
@@ -1791,17 +1697,7 @@
             this.checkBox24.TabIndex = 122;
             this.checkBox24.Text = "checkBox47";
             this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // checkBox462
-            // 
-            this.checkBox462.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox462.AutoSize = true;
-            this.checkBox462.Location = new System.Drawing.Point(290, 554);
-            this.checkBox462.Name = "checkBox462";
-            this.checkBox462.Size = new System.Drawing.Size(20, 17);
-            this.checkBox462.TabIndex = 121;
-            this.checkBox462.Text = "checkBox46";
-            this.checkBox462.UseVisualStyleBackColor = true;
+            this.checkBox24.CheckedChanged += new System.EventHandler(this.checkBox24_CheckedChanged);
             // 
             // _cbx46
             // 
@@ -1903,17 +1799,7 @@
             this.checkBox23.TabIndex = 117;
             this.checkBox23.Text = "checkBox45";
             this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox442
-            // 
-            this.checkBox442.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox442.AutoSize = true;
-            this.checkBox442.Location = new System.Drawing.Point(290, 529);
-            this.checkBox442.Name = "checkBox442";
-            this.checkBox442.Size = new System.Drawing.Size(20, 17);
-            this.checkBox442.TabIndex = 116;
-            this.checkBox442.Text = "checkBox44";
-            this.checkBox442.UseVisualStyleBackColor = true;
+            this.checkBox23.CheckedChanged += new System.EventHandler(this.checkBox23_CheckedChanged);
             // 
             // _cbx44
             // 
@@ -2015,17 +1901,7 @@
             this.checkBox22.TabIndex = 112;
             this.checkBox22.Text = "checkBox43";
             this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox422
-            // 
-            this.checkBox422.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox422.AutoSize = true;
-            this.checkBox422.Location = new System.Drawing.Point(290, 504);
-            this.checkBox422.Name = "checkBox422";
-            this.checkBox422.Size = new System.Drawing.Size(20, 17);
-            this.checkBox422.TabIndex = 111;
-            this.checkBox422.Text = "checkBox42";
-            this.checkBox422.UseVisualStyleBackColor = true;
+            this.checkBox22.CheckedChanged += new System.EventHandler(this.checkBox22_CheckedChanged);
             // 
             // _cbx42
             // 
@@ -2085,17 +1961,7 @@
             this.checkBox21.TabIndex = 107;
             this.checkBox21.Text = "checkBox41";
             this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox401
-            // 
-            this.checkBox401.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox401.AutoSize = true;
-            this.checkBox401.Location = new System.Drawing.Point(290, 479);
-            this.checkBox401.Name = "checkBox401";
-            this.checkBox401.Size = new System.Drawing.Size(20, 17);
-            this.checkBox401.TabIndex = 106;
-            this.checkBox401.Text = "checkBox40";
-            this.checkBox401.UseVisualStyleBackColor = true;
+            this.checkBox21.CheckedChanged += new System.EventHandler(this.checkBox21_CheckedChanged);
             // 
             // _cbx40
             // 
@@ -2155,17 +2021,7 @@
             this.checkBox20.TabIndex = 102;
             this.checkBox20.Text = "checkBox39";
             this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox381
-            // 
-            this.checkBox381.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox381.AutoSize = true;
-            this.checkBox381.Location = new System.Drawing.Point(290, 454);
-            this.checkBox381.Name = "checkBox381";
-            this.checkBox381.Size = new System.Drawing.Size(20, 17);
-            this.checkBox381.TabIndex = 101;
-            this.checkBox381.Text = "checkBox38";
-            this.checkBox381.UseVisualStyleBackColor = true;
+            this.checkBox20.CheckedChanged += new System.EventHandler(this.checkBox20_CheckedChanged);
             // 
             // _cbx38
             // 
@@ -2225,17 +2081,7 @@
             this.checkBox19.TabIndex = 97;
             this.checkBox19.Text = "checkBox37";
             this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox361
-            // 
-            this.checkBox361.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox361.AutoSize = true;
-            this.checkBox361.Location = new System.Drawing.Point(290, 429);
-            this.checkBox361.Name = "checkBox361";
-            this.checkBox361.Size = new System.Drawing.Size(20, 17);
-            this.checkBox361.TabIndex = 96;
-            this.checkBox361.Text = "checkBox36";
-            this.checkBox361.UseVisualStyleBackColor = true;
+            this.checkBox19.CheckedChanged += new System.EventHandler(this.checkBox19_CheckedChanged);
             // 
             // _cbx36
             // 
@@ -2295,17 +2141,7 @@
             this.checkBox18.TabIndex = 92;
             this.checkBox18.Text = "checkBox35";
             this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox341
-            // 
-            this.checkBox341.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox341.AutoSize = true;
-            this.checkBox341.Location = new System.Drawing.Point(290, 404);
-            this.checkBox341.Name = "checkBox341";
-            this.checkBox341.Size = new System.Drawing.Size(20, 17);
-            this.checkBox341.TabIndex = 91;
-            this.checkBox341.Text = "checkBox34";
-            this.checkBox341.UseVisualStyleBackColor = true;
+            this.checkBox18.CheckedChanged += new System.EventHandler(this.checkBox18_CheckedChanged);
             // 
             // _cbx34
             // 
@@ -2365,17 +2201,7 @@
             this.checkBox17.TabIndex = 87;
             this.checkBox17.Text = "checkBox33";
             this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox321
-            // 
-            this.checkBox321.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox321.AutoSize = true;
-            this.checkBox321.Location = new System.Drawing.Point(290, 379);
-            this.checkBox321.Name = "checkBox321";
-            this.checkBox321.Size = new System.Drawing.Size(20, 17);
-            this.checkBox321.TabIndex = 86;
-            this.checkBox321.Text = "checkBox32";
-            this.checkBox321.UseVisualStyleBackColor = true;
+            this.checkBox17.CheckedChanged += new System.EventHandler(this.checkBox17_CheckedChanged);
             // 
             // _cbx32
             // 
@@ -2435,17 +2261,7 @@
             this.checkBox16.TabIndex = 82;
             this.checkBox16.Text = "checkBox31";
             this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox301
-            // 
-            this.checkBox301.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox301.AutoSize = true;
-            this.checkBox301.Location = new System.Drawing.Point(290, 354);
-            this.checkBox301.Name = "checkBox301";
-            this.checkBox301.Size = new System.Drawing.Size(20, 17);
-            this.checkBox301.TabIndex = 81;
-            this.checkBox301.Text = "checkBox30";
-            this.checkBox301.UseVisualStyleBackColor = true;
+            this.checkBox16.CheckedChanged += new System.EventHandler(this.checkBox16_CheckedChanged);
             // 
             // _cbx30
             // 
@@ -2505,17 +2321,7 @@
             this.checkBox15.TabIndex = 77;
             this.checkBox15.Text = "checkBox29";
             this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox282
-            // 
-            this.checkBox282.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox282.AutoSize = true;
-            this.checkBox282.Location = new System.Drawing.Point(290, 329);
-            this.checkBox282.Name = "checkBox282";
-            this.checkBox282.Size = new System.Drawing.Size(20, 17);
-            this.checkBox282.TabIndex = 76;
-            this.checkBox282.Text = "checkBox28";
-            this.checkBox282.UseVisualStyleBackColor = true;
+            this.checkBox15.CheckedChanged += new System.EventHandler(this.checkBox15_CheckedChanged);
             // 
             // _cbx28
             // 
@@ -2587,17 +2393,7 @@
             this.checkBox14.TabIndex = 72;
             this.checkBox14.Text = "checkBox27";
             this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox262
-            // 
-            this.checkBox262.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox262.AutoSize = true;
-            this.checkBox262.Location = new System.Drawing.Point(290, 304);
-            this.checkBox262.Name = "checkBox262";
-            this.checkBox262.Size = new System.Drawing.Size(20, 17);
-            this.checkBox262.TabIndex = 71;
-            this.checkBox262.Text = "checkBox26";
-            this.checkBox262.UseVisualStyleBackColor = true;
+            this.checkBox14.CheckedChanged += new System.EventHandler(this.checkBox14_CheckedChanged);
             // 
             // label22
             // 
@@ -2638,17 +2434,7 @@
             this.checkBox13.TabIndex = 67;
             this.checkBox13.Text = "checkBox25";
             this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox242
-            // 
-            this.checkBox242.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox242.AutoSize = true;
-            this.checkBox242.Location = new System.Drawing.Point(290, 279);
-            this.checkBox242.Name = "checkBox242";
-            this.checkBox242.Size = new System.Drawing.Size(20, 17);
-            this.checkBox242.TabIndex = 66;
-            this.checkBox242.Text = "checkBox24";
-            this.checkBox242.UseVisualStyleBackColor = true;
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
             // 
             // _cbx24
             // 
@@ -2708,17 +2494,7 @@
             this.checkBox12.TabIndex = 62;
             this.checkBox12.Text = "checkBox23";
             this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox222
-            // 
-            this.checkBox222.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox222.AutoSize = true;
-            this.checkBox222.Location = new System.Drawing.Point(290, 254);
-            this.checkBox222.Name = "checkBox222";
-            this.checkBox222.Size = new System.Drawing.Size(20, 17);
-            this.checkBox222.TabIndex = 61;
-            this.checkBox222.Text = "checkBox22";
-            this.checkBox222.UseVisualStyleBackColor = true;
+            this.checkBox12.CheckedChanged += new System.EventHandler(this.checkBox12_CheckedChanged);
             // 
             // _cbx22
             // 
@@ -2778,17 +2554,7 @@
             this.checkBox11.TabIndex = 57;
             this.checkBox11.Text = "checkBox21";
             this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox202
-            // 
-            this.checkBox202.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox202.AutoSize = true;
-            this.checkBox202.Location = new System.Drawing.Point(290, 229);
-            this.checkBox202.Name = "checkBox202";
-            this.checkBox202.Size = new System.Drawing.Size(20, 17);
-            this.checkBox202.TabIndex = 56;
-            this.checkBox202.Text = "checkBox20";
-            this.checkBox202.UseVisualStyleBackColor = true;
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
             // 
             // _cbx20
             // 
@@ -2848,17 +2614,7 @@
             this.checkBox10.TabIndex = 52;
             this.checkBox10.Text = "checkBox19";
             this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox182
-            // 
-            this.checkBox182.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox182.AutoSize = true;
-            this.checkBox182.Location = new System.Drawing.Point(290, 204);
-            this.checkBox182.Name = "checkBox182";
-            this.checkBox182.Size = new System.Drawing.Size(20, 17);
-            this.checkBox182.TabIndex = 51;
-            this.checkBox182.Text = "checkBox18";
-            this.checkBox182.UseVisualStyleBackColor = true;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
             // 
             // _cbx18
             // 
@@ -2918,17 +2674,7 @@
             this.checkBox9.TabIndex = 47;
             this.checkBox9.Text = "checkBox17";
             this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox162
-            // 
-            this.checkBox162.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox162.AutoSize = true;
-            this.checkBox162.Location = new System.Drawing.Point(290, 179);
-            this.checkBox162.Name = "checkBox162";
-            this.checkBox162.Size = new System.Drawing.Size(20, 17);
-            this.checkBox162.TabIndex = 46;
-            this.checkBox162.Text = "checkBox16";
-            this.checkBox162.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
             // 
             // _cbx16
             // 
@@ -2978,17 +2724,7 @@
             this.checkBox8.TabIndex = 42;
             this.checkBox8.Text = "checkBox15";
             this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox142
-            // 
-            this.checkBox142.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox142.AutoSize = true;
-            this.checkBox142.Location = new System.Drawing.Point(290, 154);
-            this.checkBox142.Name = "checkBox142";
-            this.checkBox142.Size = new System.Drawing.Size(20, 17);
-            this.checkBox142.TabIndex = 41;
-            this.checkBox142.Text = "checkBox14";
-            this.checkBox142.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // _cbx14
             // 
@@ -3047,17 +2783,6 @@
             this.checkBox7.Text = "checkBox13";
             this.checkBox7.UseVisualStyleBackColor = true;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
-            // 
-            // checkBox122
-            // 
-            this.checkBox122.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox122.AutoSize = true;
-            this.checkBox122.Location = new System.Drawing.Point(290, 129);
-            this.checkBox122.Name = "checkBox122";
-            this.checkBox122.Size = new System.Drawing.Size(20, 17);
-            this.checkBox122.TabIndex = 36;
-            this.checkBox122.Text = "checkBox12";
-            this.checkBox122.UseVisualStyleBackColor = true;
             // 
             // _cbx12
             // 
@@ -3215,17 +2940,6 @@
             this.checkBox6.UseVisualStyleBackColor = true;
             this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
-            // checkBox102
-            // 
-            this.checkBox102.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox102.AutoSize = true;
-            this.checkBox102.Location = new System.Drawing.Point(290, 104);
-            this.checkBox102.Name = "checkBox102";
-            this.checkBox102.Size = new System.Drawing.Size(20, 17);
-            this.checkBox102.TabIndex = 31;
-            this.checkBox102.Text = "checkBox10";
-            this.checkBox102.UseVisualStyleBackColor = true;
-            // 
             // _cbx10
             // 
             this._cbx10.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -3327,17 +3041,6 @@
             this.checkBox5.Text = "checkBox9";
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
-            // 
-            // checkBox82
-            // 
-            this.checkBox82.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox82.AutoSize = true;
-            this.checkBox82.Location = new System.Drawing.Point(290, 79);
-            this.checkBox82.Name = "checkBox82";
-            this.checkBox82.Size = new System.Drawing.Size(20, 17);
-            this.checkBox82.TabIndex = 26;
-            this.checkBox82.Text = "checkBox8";
-            this.checkBox82.UseVisualStyleBackColor = true;
             // 
             // _cbx8
             // 
@@ -3494,17 +3197,6 @@
             this.checkBox4.Text = "checkBox7";
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
-            // 
-            // checkBox62
-            // 
-            this.checkBox62.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox62.AutoSize = true;
-            this.checkBox62.Location = new System.Drawing.Point(290, 54);
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(20, 17);
-            this.checkBox62.TabIndex = 21;
-            this.checkBox62.Text = "checkBox6";
-            this.checkBox62.UseVisualStyleBackColor = true;
             // 
             // _cbx6
             // 
@@ -3906,17 +3598,6 @@
             this._cbx5.Size = new System.Drawing.Size(69, 21);
             this._cbx5.TabIndex = 18;
             // 
-            // checkBox421
-            // 
-            this.checkBox421.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox421.AutoSize = true;
-            this.checkBox421.Location = new System.Drawing.Point(290, 29);
-            this.checkBox421.Name = "checkBox421";
-            this.checkBox421.Size = new System.Drawing.Size(20, 17);
-            this.checkBox421.TabIndex = 16;
-            this.checkBox421.Text = "checkBox4";
-            this.checkBox421.UseVisualStyleBackColor = true;
-            // 
             // _cbx4
             // 
             this._cbx4.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -4288,17 +3969,6 @@
             this.checkBox2.Text = "checkBox3";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // checkBox2111
-            // 
-            this.checkBox2111.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox2111.AutoSize = true;
-            this.checkBox2111.Location = new System.Drawing.Point(290, 4);
-            this.checkBox2111.Name = "checkBox2111";
-            this.checkBox2111.Size = new System.Drawing.Size(20, 17);
-            this.checkBox2111.TabIndex = 11;
-            this.checkBox2111.Text = "checkBox2";
-            this.checkBox2111.UseVisualStyleBackColor = true;
             // 
             // _cbx2
             // 
@@ -4818,10 +4488,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ComboBox _cbx1;
-        private System.Windows.Forms.CheckBox checkBox2111;
         private System.Windows.Forms.ComboBox _cbx2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox421;
         private System.Windows.Forms.ComboBox _cbx4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox _cbx3;
@@ -4829,126 +4497,101 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.ComboBox _cbx25;
         private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox242;
         private System.Windows.Forms.ComboBox _cbx24;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.ComboBox _cbx23;
         private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox222;
         private System.Windows.Forms.ComboBox _cbx22;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ComboBox _cbx21;
         private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox202;
         private System.Windows.Forms.ComboBox _cbx20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox _cbx19;
         private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox182;
         private System.Windows.Forms.ComboBox _cbx18;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.ComboBox _cbx17;
         private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox162;
         private System.Windows.Forms.ComboBox _cbx16;
         private System.Windows.Forms.ComboBox _cbx15;
         private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox142;
         private System.Windows.Forms.ComboBox _cbx14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox _cbx13;
         private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox122;
         private System.Windows.Forms.ComboBox _cbx12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ComboBox _cbx11;
         private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox102;
         private System.Windows.Forms.ComboBox _cbx10;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox _cbx9;
         private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox82;
         private System.Windows.Forms.ComboBox _cbx8;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox _cbx7;
         private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox62;
         private System.Windows.Forms.ComboBox _cbx6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox _cbx5;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox54;
         private System.Windows.Forms.ComboBox _cbx54;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ComboBox _cbx53;
         private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox52;
         private System.Windows.Forms.ComboBox _cbx52;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.ComboBox _cbx51;
         private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox502;
         private System.Windows.Forms.ComboBox _cbx50;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.ComboBox _cbx49;
         private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox482;
         private System.Windows.Forms.ComboBox _cbx48;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.ComboBox _cbx47;
         private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox462;
         private System.Windows.Forms.ComboBox _cbx46;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.ComboBox _cbx45;
         private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox442;
         private System.Windows.Forms.ComboBox _cbx44;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.ComboBox _cbx43;
         private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox422;
         private System.Windows.Forms.ComboBox _cbx42;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.ComboBox _cbx41;
         private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox401;
         private System.Windows.Forms.ComboBox _cbx40;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.ComboBox _cbx39;
         private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox381;
         private System.Windows.Forms.ComboBox _cbx38;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.ComboBox _cbx37;
         private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox361;
         private System.Windows.Forms.ComboBox _cbx36;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.ComboBox _cbx35;
         private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox341;
         private System.Windows.Forms.ComboBox _cbx34;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.ComboBox _cbx33;
         private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox321;
         private System.Windows.Forms.ComboBox _cbx32;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.ComboBox _cbx31;
         private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox301;
         private System.Windows.Forms.ComboBox _cbx30;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox _cbx29;
         private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox282;
         private System.Windows.Forms.ComboBox _cbx28;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.ComboBox _cbx27;
         private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox262;
         private System.Windows.Forms.ComboBox _cbx26;
         private System.Windows.Forms.Button _btnSelectAll;
         private System.Windows.Forms.Label label17;
