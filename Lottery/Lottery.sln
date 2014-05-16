@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryBuz", "LotteryBuz\LotteryBuz.csproj", "{0F998643-B722-4179-99DC-99BF870CA1E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{C87874F6-2909-4926-83C8-E1D72ED83C2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0F998643-B722-4179-99DC-99BF870CA1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F998643-B722-4179-99DC-99BF870CA1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F998643-B722-4179-99DC-99BF870CA1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87874F6-2909-4926-83C8-E1D72ED83C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87874F6-2909-4926-83C8-E1D72ED83C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87874F6-2909-4926-83C8-E1D72ED83C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87874F6-2909-4926-83C8-E1D72ED83C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
