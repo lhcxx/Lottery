@@ -591,12 +591,50 @@ namespace Lottery
 
         private void _btnSelectAll_Click(object sender, EventArgs e)
         {
-            foreach (Control ctr in this.Controls){
-                if ((ctr as CheckBox) != null){
-                    CheckBox tmp = ctr as CheckBox;
-                    tmp.Checked = true;
+            if (_btnSelectAll.Text.Equals("选中")){
+                foreach (Control ctr in tableLayoutPanel2.Controls)
+                {
+                    if ((ctr as CheckBox) != null)
+                    {
+                        CheckBox tmp = ctr as CheckBox;
+                        tmp.Checked = true;
+
+                    }
                 }
+                _btnSelectAll.Text = "取消";
             }
+            else{
+                foreach (Control ctr in tableLayoutPanel2.Controls)
+                {
+                    if ((ctr as CheckBox) != null)
+                    {
+                        CheckBox tmp = ctr as CheckBox;
+                        tmp.Checked = false;
+
+                    }
+                }
+                _btnSelectAll.Text = "选中";
+            }
+           
+        }
+
+        private void btnBet_Click(object sender, EventArgs e){
+            List<int> a = new List<int>();
+            a.Add(1);
+            a.Add(2);
+            a.Add(3);
+            a.Add(4);
+            a.Add(5);
+            a.Add(6);
+            a.Add(7);
+            List<int> b = new List<int>();
+            b.Add(-1);
+            b.Add(-1);
+            b.Add(-1);
+            b.Add(-1);
+            b.Add(-1);
+            b.Add(-1);
+            Program.workspace.GetTotalBetItemsByRedBlueBrave(a,b,null);
         }
 
  

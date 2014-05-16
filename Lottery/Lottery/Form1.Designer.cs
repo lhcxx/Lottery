@@ -380,6 +380,7 @@
             this.btnBet.TabIndex = 89;
             this.btnBet.Text = "投注 >>";
             this.btnBet.UseVisualStyleBackColor = true;
+            this.btnBet.Click += new System.EventHandler(this.btnBet_Click);
             // 
             // label10
             // 
