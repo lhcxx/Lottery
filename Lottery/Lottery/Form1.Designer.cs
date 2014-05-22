@@ -374,7 +374,7 @@
             // 
             // btnBet
             // 
-            this.btnBet.Location = new System.Drawing.Point(80, 729);
+            this.btnBet.Location = new System.Drawing.Point(104, 548);
             this.btnBet.Name = "btnBet";
             this.btnBet.Size = new System.Drawing.Size(78, 30);
             this.btnBet.TabIndex = 89;
@@ -385,7 +385,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(0, 697);
+            this.label10.Location = new System.Drawing.Point(0, 524);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(283, 13);
             this.label10.TabIndex = 88;

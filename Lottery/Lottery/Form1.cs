@@ -619,22 +619,21 @@ namespace Lottery
         }
 
         private void btnBet_Click(object sender, EventArgs e){
-            List<int> a = new List<int>();
-            a.Add(1);
-            a.Add(2);
-            a.Add(3);
-            a.Add(4);
-            a.Add(5);
-            a.Add(6);
-            a.Add(7);
-            List<int> b = new List<int>();
-            b.Add(-1);
-            b.Add(-1);
-            b.Add(-1);
-            b.Add(-1);
-            b.Add(-1);
-            b.Add(-1);
-            Program.workspace.GetTotalBetItemsByRedBlueBrave(a,b,null);
+
+            List<int> red = new List<int>();
+            List<int> blue = new List<int>();
+            foreach (Control ctr in groupBox1.Controls)
+            {
+                if ((ctr as Button) != null)
+                {
+                    Button tmp = ctr as Button;
+                    if (tmp.FlatStyle == FlatStyle.Flat && tmp.BackColor == Color.Red)
+                        red.Add(Int32.Parse(tmp.Text));
+                    if (tmp.FlatStyle == FlatStyle.Flat && tmp.BackColor == Color.DeepSkyBlue)
+                        red.Add(Int32.Parse(tmp.Text));
+                }
+            }
+            Program.workspace.GetTotalBetItemsByRedBlueBrave(red,blue,null);
         }
 
  
