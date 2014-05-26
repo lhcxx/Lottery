@@ -620,20 +620,27 @@ namespace Lottery
 
         private void btnBet_Click(object sender, EventArgs e){
 
-            List<int> red = new List<int>();
-            List<int> blue = new List<int>();
-            foreach (Control ctr in groupBox1.Controls)
-            {
-                if ((ctr as Button) != null)
-                {
-                    Button tmp = ctr as Button;
-                    if (tmp.FlatStyle == FlatStyle.Flat && tmp.BackColor == Color.Red)
-                        red.Add(Int32.Parse(tmp.Text));
-                    if (tmp.FlatStyle == FlatStyle.Flat && tmp.BackColor == Color.DeepSkyBlue)
-                        red.Add(Int32.Parse(tmp.Text));
-                }
+            List<string> test = new List<string>();
+            List<LotteryStageInfo> res = new List<LotteryStageInfo>();
+            if (_redSelectedButtonNumber.Count < 6 || _blueSelectedButtonNumber.Count < 1)
+                MessageBox.Show("你必须选择6个以上红球和1个以上篮球");
+            else
+                res = Program.workspace.GetTotalBetItemsByRedBlueBrave(_redSelectedButtonNumber, _blueSelectedButtonNumber, test);
+            for (int i = 1; i <= res.Count; i++){
+                res[ i - 1].Id = i.ToString();
             }
-            Program.workspace.GetTotalBetItemsByRedBlueBrave(red,blue,null);
+           
+           
+           
+            dgvBetResult.DataSource = Program.workspace.createDataTable(res);
+        }
+
+        private void _bynFilter_Click(object sender, EventArgs e)
+        {   
+            List<>
+            if (checkBox1.Checked)
+                Program.workspace.Filter.FilterByAC(Int32.Parse(_cbx1.Text), Int32.Parse(_cbx2.Text), res);
+            // MessageBox.Show(Program.workspace.Filter.FilterByACL(3, 10, res).ToString());
         }
 
  

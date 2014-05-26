@@ -234,11 +234,11 @@
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.dgvBetResult = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this._bynFilter = new System.Windows.Forms.Button();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.red = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.blue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -4317,33 +4317,13 @@
             this.dgvBetResult.Size = new System.Drawing.Size(693, 723);
             this.dgvBetResult.TabIndex = 93;
             // 
-            // id
-            // 
-            this.id.HeaderText = "序号";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 70;
-            // 
-            // red
-            // 
-            this.red.HeaderText = "红球";
-            this.red.Name = "red";
-            this.red.ReadOnly = true;
-            this.red.Width = 480;
-            // 
-            // blue
-            // 
-            this.blue.HeaderText = "篮球";
-            this.blue.Name = "blue";
-            this.blue.ReadOnly = true;
-            // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 2;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Controls.Add(this.button2, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this._bynFilter, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 770);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
@@ -4353,15 +4333,39 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(693, 35);
             this.tableLayoutPanel5.TabIndex = 94;
             // 
-            // button2
+            // _bynFilter
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button2.Location = new System.Drawing.Point(265, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 29);
-            this.button2.TabIndex = 90;
-            this.button2.Text = "过滤";
-            this.button2.UseVisualStyleBackColor = true;
+            this._bynFilter.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this._bynFilter.Location = new System.Drawing.Point(265, 3);
+            this._bynFilter.Name = "_bynFilter";
+            this._bynFilter.Size = new System.Drawing.Size(78, 29);
+            this._bynFilter.TabIndex = 90;
+            this._bynFilter.Text = "过滤";
+            this._bynFilter.UseVisualStyleBackColor = true;
+            this._bynFilter.Click += new System.EventHandler(this._bynFilter_Click);
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "Id";
+            this.id.HeaderText = "序号";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 70;
+            // 
+            // red
+            // 
+            this.red.DataPropertyName = "Red";
+            this.red.HeaderText = "红球";
+            this.red.Name = "red";
+            this.red.ReadOnly = true;
+            this.red.Width = 480;
+            // 
+            // blue
+            // 
+            this.blue.DataPropertyName = "Blue";
+            this.blue.HeaderText = "篮球";
+            this.blue.Name = "blue";
+            this.blue.ReadOnly = true;
             // 
             // Form1
             // 
@@ -4602,11 +4606,11 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.DataGridView dgvBetResult;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Button _bynFilter;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn red;
         private System.Windows.Forms.DataGridViewTextBoxColumn blue;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.Button button2;
 
     }
 }

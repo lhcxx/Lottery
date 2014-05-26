@@ -17,23 +17,9 @@ namespace Lottery
         public FrmLotteryNumber(List<LotteryStageInfo> list){
             _lotteryStageInfoList = list;
             InitializeComponent();
-            dgvLotteryStageInfo.DataSource = createDataTable(_lotteryStageInfoList);
+            dgvLotteryStageInfo.DataSource = Program.workspace.createDataTable(_lotteryStageInfoList);
+           
         }
 
-        private DataTable createDataTable(List<LotteryStageInfo> list){
-            DataTable dt = new DataTable();
-            dt.Columns.Add("ID");
-            dt.Columns.Add("Red");
-            dt.Columns.Add("Blue");
-            foreach (LotteryStageInfo info in list){
-                DataRow dr = dt.NewRow();
-                dr[0] = info.Id;
-                dr[1] = "            "+ info.Red1 + "  " + info.Red2 + "  " + info.Red3 + "  " + info.Red4 + "  " + info.Red5 + "  " +
-                        info.Red6;
-                dr[2] = "            " + info.Blue;
-                dt.Rows.Add(dr);
-            }
-            return dt;
-        }
     }
 }

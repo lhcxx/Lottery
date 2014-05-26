@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -12,6 +13,13 @@ namespace LotteryBuz
 {
     public class WorkSpace{
         private  List<LotteryStageInfo> _lotteryList = new List<LotteryStageInfo>();
+        private  Algorithm filter = new Algorithm();
+
+
+        public Algorithm Filter{
+            get { return filter; }
+            set { filter = value; }
+        }
 
         public WorkSpace(){}
 
@@ -57,17 +65,16 @@ namespace LotteryBuz
             {
                 for (int i = 0; i < blue.Count; i++)
                 {
-                    foreach (LotteryStageInfo ls in list)
-                    {
-                        ls.Blue = blue[i].ToString();
-                        mutiList.Add(Clone<LotteryStageInfo>(list[i]));
+                    for (int j = 0; j < list.Count; j++){
+                        list[j].Blue = blue[i].ToString();
+                        mutiList.Add(Clone<LotteryStageInfo>(list[j]));
                     }
                 }
 
             }
             if (brave.Count == 0)
             {
-                if (list.Count == 0 && mutiList.Count != 0)
+                if (mutiList.Count != 0)
                     return mutiList;
                 else
                     return list;
@@ -106,7 +113,25 @@ namespace LotteryBuz
                 objectStream.Seek(0, SeekOrigin.Begin);
                 return (T)formatter.Deserialize(objectStream);
             }
-        } 
+        }
+
+        public DataTable createDataTable(List<LotteryStageInfo> list)
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("ID");
+            dt.Columns.Add("Red");
+            dt.Columns.Add("Blue");
+            foreach (LotteryStageInfo info in list)
+            {
+                DataRow dr = dt.NewRow();
+                dr[0] = info.Id;
+                dr[1] = "            " + info.Red1 + "  " + info.Red2 + "  " + info.Red3 + "  " + info.Red4 + "  " + info.Red5 + "  " +
+                        info.Red6;
+                dr[2] = "            " + info.Blue;
+                dt.Rows.Add(dr);
+            }
+            return dt;
+        }
 
         private void CombineAlgorithm(List<int> a, int n, List<int> b, int m,  List<LotteryStageInfo> list)
         {
@@ -130,6 +155,7 @@ namespace LotteryBuz
             }
         }
 
+      
 
     }
 }
