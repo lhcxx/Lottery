@@ -14,11 +14,16 @@ namespace LotteryBuz
     public class WorkSpace{
         private  List<LotteryStageInfo> _lotteryList = new List<LotteryStageInfo>();
         private  Algorithm filter = new Algorithm();
-
+        private List<LotteryStageInfo> _currentBetList = new List<LotteryStageInfo>();
 
         public Algorithm Filter{
             get { return filter; }
             set { filter = value; }
+        }
+
+        public List<LotteryStageInfo> CurrentBetList{
+            get { return _currentBetList; }
+            set { _currentBetList = value; }
         }
 
         public WorkSpace(){}
@@ -103,7 +108,7 @@ namespace LotteryBuz
 
         }
 
-        public static T Clone<T>(T RealObject)
+        public  T Clone<T>(T RealObject)
         {
             using (Stream objectStream = new MemoryStream())
             {

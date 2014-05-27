@@ -19,16 +19,16 @@ namespace LotteryBuz
             }
             ReorderList(list);
         }
-        public int FilterByACL(int min, int max, List<LotteryStageInfo> list){
-            int res = 0;
-            int ac = 0;
-            for (int k = 0; k < list.Count; k++)
-            {
-                ac = CalculateAC(list[k]);
-                if (ac < min || ac > max)
-                    res++;
+
+        public void FilterByTotalSum(int min, int max, List<LotteryStageInfo> list)
+        {
+            for (int i = list.Count - 1; i >= 0; i--){
+                int[] arr = new[] { Int32.Parse(list[i].Red1), Int32.Parse(list[i].Red2), Int32.Parse(list[i].Red3), Int32.Parse(list[i].Red4), Int32.Parse(list[i].Red5), Int32.Parse(list[i].Red6) };
+                int sum = arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5];
+                if (sum < min || sum > max)
+                    list.RemoveAt(i);
             }
-            return res;
+            ReorderList(list);
         }
 
         private int CalculateAC(LotteryStageInfo info){

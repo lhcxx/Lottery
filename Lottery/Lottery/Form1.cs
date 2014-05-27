@@ -629,18 +629,28 @@ namespace Lottery
             for (int i = 1; i <= res.Count; i++){
                 res[ i - 1].Id = i.ToString();
             }
-           
-           
-           
-            dgvBetResult.DataSource = Program.workspace.createDataTable(res);
+
+            Program.workspace.CurrentBetList.Clear();
+            foreach (LotteryStageInfo info in res){
+                Program.workspace.CurrentBetList.Add(Program.workspace.Clone<LotteryStageInfo>(info));
+            }
+
+            dgvBetResult.DataSource = Program.workspace.createDataTable(Program.workspace.CurrentBetList);
         }
 
-        private void _bynFilter_Click(object sender, EventArgs e)
-        {   
-            List<>
+        private void _bynFilter_Click(object sender, EventArgs e){
+            List<LotteryStageInfo> list = new List<LotteryStageInfo>();
+
+            foreach (LotteryStageInfo info in Program.workspace.CurrentBetList)
+                list.Add(Program.workspace.Clone(info));
+
             if (checkBox1.Checked)
-                Program.workspace.Filter.FilterByAC(Int32.Parse(_cbx1.Text), Int32.Parse(_cbx2.Text), res);
-            // MessageBox.Show(Program.workspace.Filter.FilterByACL(3, 10, res).ToString());
+                Program.workspace.Filter.FilterByAC(Int32.Parse(_cbx1.Text), Int32.Parse(_cbx2.Text), list);
+            if (checkBox2.Checked)
+                Program.workspace.Filter.FilterByTotalSum(Int32.Parse(_cbx3.Text), Int32.Parse(_cbx4.Text), list);
+
+
+            dgvBetResult.DataSource = Program.workspace.createDataTable(list);
         }
 
  
